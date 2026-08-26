@@ -1,0 +1,267 @@
+conflict_id,conflict_name,country_id,country_name
+CNF-0001,World War I,DEU,Germany
+CNF-0001,World War I,AUH,Austria-Hungary
+CNF-0001,World War I,OTO,Ottoman Empire
+CNF-0001,World War I,FRA,France
+CNF-0001,World War I,GBR,United Kingdom
+CNF-0001,World War I,RUS,Russia
+CNF-0001,World War I,ITA,Italy
+CNF-0001,World War I,USA,United States
+CNF-0001,World War I,SRB,Serbia
+CNF-0001,World War I,BEL,Belgium
+CNF-0001,World War I,JPN,Japan
+CNF-0002,Russian Civil War,RUS,Russia
+CNF-0002,Russian Civil War,UKR,Ukraine
+CNF-0002,Russian Civil War,POL,Poland
+CNF-0002,Russian Civil War,JPN,Japan
+CNF-0002,Russian Civil War,GBR,United Kingdom
+CNF-0002,Russian Civil War,FRA,France
+CNF-0002,Russian Civil War,USA,United States
+CNF-0003,Mexican Revolution,MEX,Mexico
+CNF-0004,Irish War of Independence,GBR,United Kingdom
+CNF-0004,Irish War of Independence,IRL,Ireland
+CNF-0005,Irish Civil War,IRL,Ireland
+CNF-0006,Polish-Soviet War,POL,Poland
+CNF-0006,Polish-Soviet War,SUN,Soviet Union
+CNF-0006,Polish-Soviet War,UKR,Ukraine
+CNF-0007,Turkish War of Independence,TUR,Turkey
+CNF-0007,Turkish War of Independence,GRC,Greece
+CNF-0007,Turkish War of Independence,ARM,Armenia
+CNF-0007,Turkish War of Independence,FRA,France
+CNF-0007,Turkish War of Independence,GBR,United Kingdom
+CNF-0008,Chaco War,BOL,Bolivia
+CNF-0008,Chaco War,PRY,Paraguay
+CNF-0009,Second Italo-Ethiopian War,ITA,Italy
+CNF-0009,Second Italo-Ethiopian War,ETH,Ethiopia
+CNF-0010,Spanish Civil War,ESP,Spain
+CNF-0010,Spanish Civil War,DEU,Germany
+CNF-0010,Spanish Civil War,ITA,Italy
+CNF-0010,Spanish Civil War,SUN,Soviet Union
+CNF-0011,Second Sino-Japanese War,CHN,China
+CNF-0011,Second Sino-Japanese War,JPN,Japan
+CNF-0012,Winter War,SUN,Soviet Union
+CNF-0012,Winter War,FIN,Finland
+CNF-0013,World War II,DEU,Germany
+CNF-0013,World War II,JPN,Japan
+CNF-0013,World War II,ITA,Italy
+CNF-0013,World War II,USA,United States
+CNF-0013,World War II,GBR,United Kingdom
+CNF-0013,World War II,SUN,Soviet Union
+CNF-0013,World War II,FRA,France
+CNF-0013,World War II,CHN,China
+CNF-0013,World War II,POL,Poland
+CNF-0014,Continuation War,FIN,Finland
+CNF-0014,Continuation War,SUN,Soviet Union
+CNF-0014,Continuation War,DEU,Germany
+CNF-0015,Chinese Civil War (resumed phase),CHN,China
+CNF-0016,Indonesian National Revolution,IDN,Indonesia
+CNF-0016,Indonesian National Revolution,NLD,Netherlands
+CNF-0017,Indo-Pakistani War of 1947,IND,India
+CNF-0017,Indo-Pakistani War of 1947,PAK,Pakistan
+CNF-0018,1948 Arab-Israeli War,ISR,Israel
+CNF-0018,1948 Arab-Israeli War,EGY,Egypt
+CNF-0018,1948 Arab-Israeli War,JOR,Jordan
+CNF-0018,1948 Arab-Israeli War,SYR,Syria
+CNF-0018,1948 Arab-Israeli War,LBN,Lebanon
+CNF-0018,1948 Arab-Israeli War,IRQ,Iraq
+CNF-0019,Korean War,PRK,North Korea
+CNF-0019,Korean War,KOR,South Korea
+CNF-0019,Korean War,USA,United States
+CNF-0019,Korean War,CHN,China
+CNF-0019,Korean War,SUN,Soviet Union
+CNF-0020,Mau Mau Uprising,KEN,Kenya
+CNF-0020,Mau Mau Uprising,GBR,United Kingdom
+CNF-0021,First Indochina War,VNM,Vietnam
+CNF-0021,First Indochina War,FRA,France
+CNF-0022,Algerian War of Independence,DZA,Algeria
+CNF-0022,Algerian War of Independence,FRA,France
+CNF-0023,Suez Crisis,EGY,Egypt
+CNF-0023,Suez Crisis,ISR,Israel
+CNF-0023,Suez Crisis,GBR,United Kingdom
+CNF-0023,Suez Crisis,FRA,France
+CNF-0024,Guinea-Bissau War of Independence,GNB,Guinea-Bissau
+CNF-0024,Guinea-Bissau War of Independence,PRT,Portugal
+CNF-0025,Congo Crisis,COD,Democratic Republic of Congo
+CNF-0025,Congo Crisis,BEL,Belgium
+CNF-0026,Vietnam War,VNM,Vietnam
+CNF-0026,Vietnam War,USA,United States
+CNF-0026,Vietnam War,KHM,Cambodia
+CNF-0026,Vietnam War,LAO,Laos
+CNF-0027,Indo-Pakistani War of 1965,IND,India
+CNF-0027,Indo-Pakistani War of 1965,PAK,Pakistan
+CNF-0028,Six-Day War,ISR,Israel
+CNF-0028,Six-Day War,EGY,Egypt
+CNF-0028,Six-Day War,JOR,Jordan
+CNF-0028,Six-Day War,SYR,Syria
+CNF-0029,Nigerian Civil War,NGA,Nigeria
+CNF-0030,Cambodian Civil War,KHM,Cambodia
+CNF-0030,Cambodian Civil War,VNM,Vietnam
+CNF-0030,Cambodian Civil War,USA,United States
+CNF-0031,Football War,SLV,El Salvador
+CNF-0031,Football War,HND,Honduras
+CNF-0032,Bangladesh Liberation War,BGD,Bangladesh
+CNF-0032,Bangladesh Liberation War,PAK,Pakistan
+CNF-0032,Bangladesh Liberation War,IND,India
+CNF-0033,Yom Kippur War,ISR,Israel
+CNF-0033,Yom Kippur War,EGY,Egypt
+CNF-0033,Yom Kippur War,SYR,Syria
+CNF-0034,Angolan War of Independence,AGO,Angola
+CNF-0034,Angolan War of Independence,PRT,Portugal
+CNF-0035,Angolan Civil War,AGO,Angola
+CNF-0035,Angolan Civil War,CUB,Cuba
+CNF-0035,Angolan Civil War,ZAF,South Africa
+CNF-0036,Mozambican War of Independence,MOZ,Mozambique
+CNF-0036,Mozambican War of Independence,PRT,Portugal
+CNF-0037,Mozambican Civil War,MOZ,Mozambique
+CNF-0037,Mozambican Civil War,ZWE,Rhodesia
+CNF-0037,Mozambican Civil War,ZAF,South Africa
+CNF-0038,Soviet-Afghan War,AFG,Afghanistan
+CNF-0038,Soviet-Afghan War,SUN,Soviet Union
+CNF-0038,Soviet-Afghan War,PAK,Pakistan
+CNF-0038,Soviet-Afghan War,USA,United States
+CNF-0039,Iran-Iraq War,IRN,Iran
+CNF-0039,Iran-Iraq War,IRQ,Iraq
+CNF-0040,Falklands War,GBR,United Kingdom
+CNF-0040,Falklands War,ARG,Argentina
+CNF-0041,Lebanese Civil War,LBN,Lebanon
+CNF-0041,Lebanese Civil War,SYR,Syria
+CNF-0041,Lebanese Civil War,ISR,Israel
+CNF-0042,1982 Lebanon War,ISR,Israel
+CNF-0042,1982 Lebanon War,LBN,Lebanon
+CNF-0042,1982 Lebanon War,SYR,Syria
+CNF-0043,Sri Lankan Civil War,LKA,Sri Lanka
+CNF-0044,First Sudanese Civil War,SDN,Sudan
+CNF-0045,Eritrean War of Independence,ERI,Eritrea
+CNF-0045,Eritrean War of Independence,ETH,Ethiopia
+CNF-0046,Western Sahara War,MAR,Morocco
+CNF-0046,Western Sahara War,ESH,Western Sahara
+CNF-0046,Western Sahara War,MRT,Mauritania
+CNF-0047,Ogaden War,SOM,Somalia
+CNF-0047,Ogaden War,ETH,Ethiopia
+CNF-0047,Ogaden War,CUB,Cuba
+CNF-0048,Cambodian-Vietnamese War,VNM,Vietnam
+CNF-0048,Cambodian-Vietnamese War,KHM,Cambodia
+CNF-0049,Sino-Vietnamese War,CHN,China
+CNF-0049,Sino-Vietnamese War,VNM,Vietnam
+CNF-0050,Sino-Indian War,CHN,China
+CNF-0050,Sino-Indian War,IND,India
+CNF-0051,Turkish Invasion of Cyprus,CYP,Cyprus
+CNF-0051,Turkish Invasion of Cyprus,TUR,Turkey
+CNF-0051,Turkish Invasion of Cyprus,GRC,Greece
+CNF-0052,Greek Civil War,GRC,Greece
+CNF-0053,Gulf War,IRQ,Iraq
+CNF-0053,Gulf War,KWT,Kuwait
+CNF-0053,Gulf War,USA,United States
+CNF-0053,Gulf War,SAU,Saudi Arabia
+CNF-0054,Slovenian War of Independence,SVN,Slovenia
+CNF-0054,Slovenian War of Independence,YUG,Yugoslavia
+CNF-0055,Croatian War of Independence,HRV,Croatia
+CNF-0055,Croatian War of Independence,YUG,Yugoslavia
+CNF-0055,Croatian War of Independence,BIH,Bosnia and Herzegovina
+CNF-0056,Bosnian War,BIH,Bosnia and Herzegovina
+CNF-0056,Bosnian War,SRB,Serbia
+CNF-0056,Bosnian War,HRV,Croatia
+CNF-0057,Kosovo War,XKX,Kosovo
+CNF-0057,Kosovo War,SRB,Serbia
+CNF-0058,Rwandan Genocide,RWA,Rwanda
+CNF-0059,First Congo War,COD,Democratic Republic of Congo
+CNF-0059,First Congo War,RWA,Rwanda
+CNF-0059,First Congo War,UGA,Uganda
+CNF-0060,Second Congo War,COD,Democratic Republic of Congo
+CNF-0060,Second Congo War,RWA,Rwanda
+CNF-0060,Second Congo War,UGA,Uganda
+CNF-0060,Second Congo War,ZWE,Zimbabwe
+CNF-0060,Second Congo War,AGO,Angola
+CNF-0060,Second Congo War,NAM,Namibia
+CNF-0061,First Chechen War,RUS,Russia
+CNF-0061,First Chechen War,RUS-CHEC,Chechnya
+CNF-0062,Second Chechen War,RUS,Russia
+CNF-0062,Second Chechen War,RUS-CHEC,Chechnya
+CNF-0063,First Nagorno-Karabakh War,ARM,Armenia
+CNF-0063,First Nagorno-Karabakh War,AZE,Azerbaijan
+CNF-0064,Sierra Leone Civil War,SLE,Sierra Leone
+CNF-0064,Sierra Leone Civil War,LBR,Liberia
+CNF-0065,First Liberian Civil War,LBR,Liberia
+CNF-0066,Second Liberian Civil War,LBR,Liberia
+CNF-0067,Somali Civil War,SOM,Somalia
+CNF-0068,Georgian Civil War / South Ossetia War (1991-92),GEO,Georgia
+CNF-0069,War in Abkhazia,GEO,Georgia
+CNF-0070,Transnistria War,MDA,Moldova
+CNF-0071,Tajikistani Civil War,TJK,Tajikistan
+CNF-0072,Kargil War,IND,India
+CNF-0072,Kargil War,PAK,Pakistan
+CNF-0073,Eritrean-Ethiopian War,ERI,Eritrea
+CNF-0073,Eritrean-Ethiopian War,ETH,Ethiopia
+CNF-0074,Second Sudanese Civil War,SDN,Sudan
+CNF-0075,Darfur War,SDN,Sudan
+CNF-0076,Afghan Civil War (1989-2001),AFG,Afghanistan
+CNF-0077,First Ivorian Civil War,CIV,Ivory Coast
+CNF-0078,War in Afghanistan (2001-2021),AFG,Afghanistan
+CNF-0078,War in Afghanistan (2001-2021),USA,United States
+CNF-0078,War in Afghanistan (2001-2021),GBR,United Kingdom
+CNF-0079,Iraq War,IRQ,Iraq
+CNF-0079,Iraq War,USA,United States
+CNF-0079,Iraq War,GBR,United Kingdom
+CNF-0080,War in North-West Pakistan,PAK,Pakistan
+CNF-0081,Mexican Drug War,MEX,Mexico
+CNF-0082,Russo-Georgian War,GEO,Georgia
+CNF-0082,Russo-Georgian War,RUS,Russia
+CNF-0083,First Libyan Civil War,LBY,Libya
+CNF-0084,Second Ivorian Civil War,CIV,Ivory Coast
+CNF-0085,Syrian Civil War,SYR,Syria
+CNF-0085,Syrian Civil War,RUS,Russia
+CNF-0085,Syrian Civil War,IRN,Iran
+CNF-0085,Syrian Civil War,TUR,Turkey
+CNF-0085,Syrian Civil War,USA,United States
+CNF-0086,Yemeni Civil War,YEM,Yemen
+CNF-0086,Yemeni Civil War,SAU,Saudi Arabia
+CNF-0086,Yemeni Civil War,ARE,United Arab Emirates
+CNF-0086,Yemeni Civil War,IRN,Iran
+CNF-0087,Second Libyan Civil War,LBY,Libya
+CNF-0088,Boko Haram Insurgency,NGA,Nigeria
+CNF-0088,Boko Haram Insurgency,CMR,Cameroon
+CNF-0088,Boko Haram Insurgency,TCD,Chad
+CNF-0088,Boko Haram Insurgency,NER,Niger
+CNF-0089,War in Donbas,UKR,Ukraine
+CNF-0089,War in Donbas,RUS,Russia
+CNF-0090,Second Nagorno-Karabakh War,ARM,Armenia
+CNF-0090,Second Nagorno-Karabakh War,AZE,Azerbaijan
+CNF-0091,Tigray War,ETH,Ethiopia
+CNF-0091,Tigray War,ERI,Eritrea
+CNF-0092,Russo-Ukrainian War (full-scale invasion),UKR,Ukraine
+CNF-0092,Russo-Ukrainian War (full-scale invasion),RUS,Russia
+CNF-0092,Russo-Ukrainian War (full-scale invasion),BLR,Belarus
+CNF-0093,Second Sudanese Civil War (2023-),SDN,Sudan
+CNF-0093,Second Sudanese Civil War (2023-),ARE,United Arab Emirates
+CNF-0093,Second Sudanese Civil War (2023-),TCD,Chad
+CNF-0094,Gaza War,ISR,Israel
+CNF-0094,Gaza War,PSE,Palestine
+CNF-0095,Israel-Hezbollah War (2023-2024),ISR,Israel
+CNF-0095,Israel-Hezbollah War (2023-2024),LBN,Lebanon
+CNF-0096,Twelve-Day War,ISR,Israel
+CNF-0096,Twelve-Day War,IRN,Iran
+CNF-0096,Twelve-Day War,USA,United States
+CNF-0097,2026 Iran War,IRN,Iran
+CNF-0097,2026 Iran War,ISR,Israel
+CNF-0097,2026 Iran War,USA,United States
+CNF-0097,2026 Iran War,LBN,Lebanon
+CNF-0097,2026 Iran War,QAT,Qatar
+CNF-0097,2026 Iran War,BHR,Bahrain
+CNF-0097,2026 Iran War,KWT,Kuwait
+CNF-0097,2026 Iran War,SAU,Saudi Arabia
+CNF-0097,2026 Iran War,ARE,United Arab Emirates
+CNF-0097,2026 Iran War,OMN,Oman
+CNF-0098,Myanmar Civil War,MMR,Myanmar
+CNF-0099,Kivu Conflict / M23 Resurgence,COD,Democratic Republic of Congo
+CNF-0099,Kivu Conflict / M23 Resurgence,RWA,Rwanda
+CNF-0100,South Sudanese Civil War,SSD,South Sudan
+CNF-0101,Central African Republic Civil War,CAF,Central African Republic
+CNF-0102,Mali War / Sahel Jihadist Insurgency,MLI,Mali
+CNF-0102,Mali War / Sahel Jihadist Insurgency,BFA,Burkina Faso
+CNF-0102,Mali War / Sahel Jihadist Insurgency,NER,Niger
+CNF-0103,Mozambique Cabo Delgado Insurgency,MOZ,Mozambique
+CNF-0104,Cameroon Anglophone Crisis,CMR,Cameroon
+CNF-0105,First Intifada,ISR,Israel
+CNF-0105,First Intifada,PSE,Palestine
+CNF-0106,Second Intifada,ISR,Israel
+CNF-0106,Second Intifada,PSE,Palestine

@@ -1,0 +1,59 @@
+table,column,data_type,description,example_value,nullable
+conflicts.csv,conflict_id,string,"Unique, stable identifier. Primary key.",CNF-0001,No
+conflicts.csv,conflict_name,string,Common English name of the conflict.,World War I,No
+conflicts.csv,alternative_names,string,"Pipe-separated alternative names, or the literal placeholder 'None documented' if none is commonly used.",The Great War|First World War,No
+conflicts.csv,start_date,date (YYYY-MM-DD),Conventional start date.,1914-07-28,No
+conflicts.csv,end_date,date (YYYY-MM-DD) or 'ONGOING',"End date, or the literal string 'ONGOING' for the 13 conflicts still active as of last_verified_date. ALWAYS check is_ongoing (boolean) rather than string-matching this column in code.",1918-11-11 / ONGOING,No
+conflicts.csv,duration_days_to_date,integer,"Days from start_date to end_date, OR to the dataset's as-of date (2026-07-07) for ongoing conflicts. See duration_is_provisional.",1567,No
+conflicts.csv,duration_years_to_date,float,duration_days_to_date / 365.25.,4.29,No
+conflicts.csv,duration_is_provisional,boolean,"True = conflict is ongoing, so duration_days_to_date is a running total, NOT a final duration. False = conflict ended and the duration is final.",False,No
+conflicts.csv,status,string,Free-text status description.,Ended,No
+conflicts.csv,is_ongoing,boolean,"Authoritative ongoing/ended flag. Use this, not string-matching end_date.",False,No
+conflicts.csv,countries_involved,string (pipe-delimited),Country/entity display names.,Germany|France,No
+conflicts.csv,n_countries_involved,integer,Count of entries in countries_involved.,11,No
+conflicts.csv,region,string,Geographic region(s).,Europe / Middle East,No
+conflicts.csv,cities,string (pipe-delimited),"Representative cities, or 'Not documented' placeholder.","Verdun, France",No
+conflicts.csv,latitude,float,Latitude of one representative point.,49.16,No
+conflicts.csv,longitude,float,Longitude of one representative point.,5.38,No
+conflicts.csv,side_a,string,"One side/coalition, or the literal placeholder 'Not delineated into two sides (see military_alliances_raw)' where the conflict doesn't reduce to two sides.",Allied Powers,No
+conflicts.csv,side_b,string,Other side/coalition. Same placeholder policy as side_a.,Central Powers,No
+conflicts.csv,military_alliances_raw,string,"Full unparsed alliance description, or 'Not documented as a formal two-sided alliance structure'.",Allied Powers|Central Powers,No
+conflicts.csv,cause_of_conflict,string,Paraphrased summary of principal cause(s).,Assassination of Archduke Franz Ferdinand...,No
+conflicts.csv,conflict_type,string,Conflict typology (Correlates of War / UCDP-aligned).,Interstate war,No
+conflicts.csv,military_casualties_low,integer,Low-end military/combatant death estimate.,9000000,No
+conflicts.csv,military_casualties_high,integer,High-end military/combatant death estimate.,11000000,No
+conflicts.csv,civilian_casualties_low,integer,Low-end civilian death estimate.,6000000,No
+conflicts.csv,civilian_casualties_high,integer,High-end civilian death estimate.,13000000,No
+conflicts.csv,total_casualties_low,integer,Low-end total death estimate (not always == military_low + civilian_low; see notes in v1.0.0 README).,15000000,No
+conflicts.csv,total_casualties_high,integer,High-end total death estimate.,22000000,No
+conflicts.csv,total_casualties_estimate,integer,Single central estimate for convenience in charts. Prefer the range for analysis.,17000000,No
+conflicts.csv,casualty_estimate_basis,string,"Explains why the range is wide / what's included, or the placeholder 'Single broadly-agreed figure in cited sources; no material dispute to note' where sources agree closely.",Widely-cited range reflects...,No
+conflicts.csv,refugees,integer (or -1 sentinel),Estimated cross-border refugees. **-1 means 'not reported' — it is NOT a real value.** Always check refugees_reported before using this column numerically.,6900000 / -1,"No — use sentinel, never blank"
+conflicts.csv,refugees_reported,boolean,True if refugees holds a real sourced figure; False if it holds the -1 sentinel.,True,No
+conflicts.csv,internally_displaced_persons,integer (or -1 sentinel),Estimated IDPs. Same -1 sentinel policy as refugees.,13000000 / -1,No
+conflicts.csv,idps_reported,boolean,True if internally_displaced_persons holds a real figure.,True,No
+conflicts.csv,economic_damage_usd_low,float (or -1 sentinel),"Low-end direct economic/reconstruction cost in USD, NOT inflation-adjusted across eras. -1 = not reported (populated for only 3 of 106 conflicts — see economic_damage_reported).",208000000000 / -1,No
+conflicts.csv,economic_damage_usd_high,float (or -1 sentinel),High-end economic damage estimate.,208000000000 / -1,No
+conflicts.csv,economic_damage_reported,boolean,True if a real sourced economic-damage figure exists for this conflict (3 of 106 rows). ALWAYS filter on this before aggregating economic_damage_usd_* — the -1 sentinels will silently wreck a SUM() or MEAN() otherwise.,False,No
+conflicts.csv,economic_damage_note,string,Explains what the figure covers / inflation-adjustment status / why none exists.,"Contemporary (1919) estimate, not inflation-adjusted",No
+conflicts.csv,infrastructure_damage,string,"Free-text description, or 'Not systematically documented' placeholder.",Not systematically documented,No
+conflicts.csv,peace_agreement,string,"Name/date of the ending treaty or agreement, with explicit context where none exists (e.g. 'None (no formal treaty; ended by British military suppression)').",Treaty of Versailles (1919),No
+conflicts.csv,ceasefire_date,date (YYYY-MM-DD) or 'Not Applicable',Distinct ceasefire date where one exists separate from end_date. Placeholder is the literal string 'Not Applicable' (NOT 'N/A' — deliberately avoided because pandas silently reads a bare 'N/A' as NaN on default CSV parsing; see validation_report.md).,2026-06-28 / Not Applicable,No
+conflicts.csv,ceasefire_date_reported,boolean,True if ceasefire_date holds a real date (9 of 106 rows).,False,No
+conflicts.csv,outcome,string,Paraphrased summary of the conflict's outcome.,Allied victory; collapse of...,No
+conflicts.csv,data_confidence,categorical (High/Medium/Low),Confidence tier — see README.md for full tier definitions.,High,No
+conflicts.csv,source_ids,string (pipe-delimited),Foreign keys into sources.csv.,SRC001|SRC005,No
+conflicts.csv,last_verified_date,date (YYYY-MM-DD),Date this record was last checked against sources.,2026-07-07,No
+conflict_participants.csv,conflict_id,string,Foreign key to conflicts.csv.,CNF-0001,No
+conflict_participants.csv,conflict_name,string,Denormalized conflict name.,World War I,No
+conflict_participants.csv,country_id,string,Foreign key to countries_reference.csv. Shared join key across the whole planned collection.,DEU,No
+conflict_participants.csv,country_name,string,Denormalized country/entity display name.,Germany,No
+countries_reference.csv,country_id,string,Primary key (ISO3 or manual pseudo-code for historical/subnational entities).,DEU,No
+countries_reference.csv,country_name,string,Display name (historical entities keep their historical name).,Germany,No
+countries_reference.csv,region,string,Broad geographic region.,Europe,No
+countries_reference.csv,is_historical_entity,boolean,True if the entity no longer exists in this form.,True,No
+sources.csv,source_id,string,Primary key.,SRC001,No
+sources.csv,title,string,Source/dataset title.,Correlates of War Project...,No
+sources.csv,publisher,string,Publishing organization.,Correlates of War Project,No
+sources.csv,url,string,Source URL.,https://correlatesofwar.org/,No
+sources.csv,source_type,categorical,dataset/database/encyclopedia/news/government/un_report/think_tank/ngo/museum/yearbook/report.,dataset,No

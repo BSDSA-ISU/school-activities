@@ -1,0 +1,101 @@
+country_id,country_name,region,is_historical_entity
+AFG,Afghanistan,Asia,False
+DZA,Algeria,Africa,False
+AGO,Angola,Africa,False
+ARG,Argentina,South America,False
+ARM,Armenia,Europe/Asia,False
+AUH,Austria-Hungary,Europe,True
+AZE,Azerbaijan,Europe/Asia,False
+BHR,Bahrain,Middle East,False
+BGD,Bangladesh,Asia,False
+BLR,Belarus,Unclassified / see conflict record,False
+BEL,Belgium,Europe,False
+BOL,Bolivia,South America,False
+BIH,Bosnia and Herzegovina,Europe,False
+BFA,Burkina Faso,Africa,False
+KHM,Cambodia,Asia,False
+CMR,Cameroon,Africa,False
+CAF,Central African Republic,Africa,False
+TCD,Chad,Africa,False
+RUS-CHEC,Chechnya,Europe/Asia (Russian Federation),False
+CHN,China,Asia,False
+HRV,Croatia,Europe,False
+CUB,Cuba,North America,False
+CYP,Cyprus,Unclassified / see conflict record,False
+COD,Democratic Republic of Congo,Africa,False
+EGY,Egypt,Middle East,False
+SLV,El Salvador,Central America,False
+ERI,Eritrea,Unclassified / see conflict record,False
+ETH,Ethiopia,Africa,False
+FIN,Finland,Europe,False
+FRA,France,Europe,False
+GEO,Georgia,Europe/Asia,False
+DEU,Germany,Europe,False
+GRC,Greece,Europe,False
+GNB,Guinea-Bissau,Africa,False
+HND,Honduras,Unclassified / see conflict record,False
+IND,India,Asia,False
+IDN,Indonesia,Asia,False
+IRN,Iran,Middle East,False
+IRQ,Iraq,Middle East,False
+IRL,Ireland,Europe,False
+ISR,Israel,Middle East,False
+ITA,Italy,Europe,False
+CIV,Ivory Coast,Africa,False
+JPN,Japan,Asia,False
+JOR,Jordan,Unclassified / see conflict record,False
+KEN,Kenya,Africa,False
+XKX,Kosovo,Europe,False
+KWT,Kuwait,Middle East,False
+LAO,Laos,Asia,False
+LBN,Lebanon,Middle East,False
+LBR,Liberia,Africa,False
+LBY,Libya,Africa,False
+MLI,Mali,Africa,False
+MRT,Mauritania,Unclassified / see conflict record,False
+MEX,Mexico,North America,False
+MDA,Moldova,Unclassified / see conflict record,False
+MAR,Morocco,Africa,False
+MOZ,Mozambique,Africa,False
+MMR,Myanmar,Asia,False
+NAM,Namibia,Africa,False
+NLD,Netherlands,Unclassified / see conflict record,False
+NER,Niger,Africa,False
+NGA,Nigeria,Africa,False
+PRK,North Korea,Asia,False
+OMN,Oman,Middle East,False
+OTO,Ottoman Empire,Middle East,True
+PAK,Pakistan,Asia,False
+PSE,Palestine,Middle East,False
+PRY,Paraguay,South America,False
+POL,Poland,Europe,False
+PRT,Portugal,Europe,False
+QAT,Qatar,Middle East,False
+ZWE,Rhodesia,Africa,True
+RUS,Russia,Europe/Asia,False
+RWA,Rwanda,Africa,False
+SAU,Saudi Arabia,Middle East,False
+SRB,Serbia,Europe,False
+SLE,Sierra Leone,Africa,False
+SVN,Slovenia,Unclassified / see conflict record,False
+SOM,Somalia,Africa,False
+ZAF,South Africa,Africa,False
+KOR,South Korea,Asia,False
+SSD,South Sudan,Africa,False
+SUN,Soviet Union,Europe/Asia,True
+ESP,Spain,Europe,False
+LKA,Sri Lanka,Asia,False
+SDN,Sudan,Africa,False
+SYR,Syria,Middle East,False
+TJK,Tajikistan,Unclassified / see conflict record,False
+TUR,Turkey,Middle East/Europe,False
+UGA,Uganda,Africa,False
+UKR,Ukraine,Europe,False
+ARE,United Arab Emirates,Middle East,False
+GBR,United Kingdom,Europe,False
+USA,United States,North America,False
+VNM,Vietnam,Asia,False
+ESH,Western Sahara,Africa,False
+YEM,Yemen,Middle East,False
+YUG,Yugoslavia,Europe,True
+ZWE,Zimbabwe,Africa,False

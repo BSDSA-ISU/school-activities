@@ -1,0 +1,46 @@
+source_id,title,publisher,url,source_type
+SRC001,Correlates of War Project - Inter-State War Data v4.0,Correlates of War Project,https://correlatesofwar.org/data-sets/cow-war/,dataset
+SRC002,Correlates of War Project - Intra-State War Data v5.1,Correlates of War Project,https://correlatesofwar.org/data-sets/cow-war/,dataset
+SRC003,UCDP Conflict Encyclopedia,"Uppsala Conflict Data Program (UCDP), Uppsala University",https://ucdp.uu.se/,database
+SRC004,UCDP/PRIO Armed Conflict Dataset v24.1,UCDP & Peace Research Institute Oslo (PRIO),https://ucdp.uu.se/downloads/,dataset
+SRC005,Encyclopaedia Britannica - conflict entries,"Encyclopaedia Britannica, Inc.",https://www.britannica.com/,encyclopedia
+SRC006,UNHCR Refugee Data Finder,UN High Commissioner for Refugees,https://www.unhcr.org/refugee-statistics/,dataset
+SRC007,UNHCR Global Trends Reports (various years),UN High Commissioner for Refugees,https://www.unhcr.org/global-trends-report-2024,report
+SRC008,IDMC Global Internal Displacement Database,Internal Displacement Monitoring Centre,https://www.internal-displacement.org/database/,dataset
+SRC009,ACLED Conflict Index / Curated Data Files,Armed Conflict Location & Event Data Project,https://acleddata.com/,database
+SRC010,World Bank - war-related reconstruction cost estimates,World Bank Group,https://www.worldbank.org/,report
+SRC011,SIPRI Yearbook - Armed Conflicts and Peace Processes,Stockholm International Peace Research Institute,https://www.sipri.org/yearbook,yearbook
+SRC012,Wikipedia - conflict-specific articles (cross-checked),Wikimedia Foundation,https://en.wikipedia.org/,encyclopedia
+SRC013,US Holocaust Memorial Museum - WWII casualty figures,United States Holocaust Memorial Museum,https://www.ushmm.org/,museum
+SRC014,National WWII Museum - Research Starters: worldwide deaths,"The National WWII Museum, New Orleans",https://www.nationalww2museum.org/,museum
+SRC015,US Department of Veterans Affairs - America's Wars fact sheet,US Department of Veterans Affairs,https://www.va.gov/,government
+SRC016,US National Archives - Vietnam War statistics,US National Archives and Records Administration,https://www.archives.gov/,government
+SRC017,UN Human Rights Council - Commission of Inquiry on Syria,UN Office of the High Commissioner for Human Rights,https://www.ohchr.org/,un_report
+SRC018,Al Jazeera - Gaza war live coverage & casualty tracking,Al Jazeera Media Network,https://www.aljazeera.com/,news
+SRC019,Wikipedia - Gaza war (2023-present),Wikimedia Foundation,https://en.wikipedia.org/wiki/Gaza_war,encyclopedia
+SRC020,"Palestinian Ministry of Health casualty figures (via AJ tracking, July 2026)",Gaza Ministry of Health,https://www.aljazeera.com/news/2025/11/11/how-many-times-has-israel-violated-the-gaza-ceasefire-here-are-the-numbers,government
+SRC021,Gaza peace plan - Wikipedia (ceasefire implementation tracking),Wikimedia Foundation,https://en.wikipedia.org/wiki/Gaza_peace_plan,encyclopedia
+SRC022,J Street - Six Months In: Assessing the Status of the Gaza Ceasefire,J Street,https://jstreet.org/six-months-in-assessing-the-status-of-the-gaza-ceasefire/,think_tank
+SRC023,Wikipedia - Peace negotiations in the Russo-Ukrainian war,Wikimedia Foundation,https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present),encyclopedia
+SRC024,Al Jazeera - Russia-Ukraine war live coverage (July 2026),Al Jazeera Media Network,https://www.aljazeera.com/news/2026/7/5/russia-says-ukraine-rejects-local-ceasefire-in-dispute-over-kostiantynivka,news
+SRC025,oiip - The War in Ukraine: The Moment of Truth in 2026,Austrian Institute for International Affairs (oiip),https://www.oiip.ac.at/en/publications/the-war-in-ukraine-the-moment-of-truth-in-2026/,think_tank
+SRC026,"Wikipedia - Twelve-Day War (Israel-Iran, June 2025)",Wikimedia Foundation,https://en.wikipedia.org/wiki/Twelve-Day_War,encyclopedia
+SRC027,Britannica - 12-Day War (June 2025),"Encyclopaedia Britannica, Inc.",https://www.britannica.com/event/12-Day-War,encyclopedia
+SRC028,Wikipedia - 2026 Iran war,Wikimedia Foundation,https://en.wikipedia.org/wiki/2026_Iran_war,encyclopedia
+SRC029,Britannica - 2026 Iran war,"Encyclopaedia Britannica, Inc.",https://www.britannica.com/event/2026-Iran-war,encyclopedia
+SRC030,ACLED Q&A - Twelve days that shook the region,Armed Conflict Location & Event Data Project,https://acleddata.com/qa/qa-twelve-days-shook-region-inside-iran-israel-war,report
+SRC031,CFR Global Conflict Tracker - Civil War in Sudan,Council on Foreign Relations,https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan,think_tank
+SRC032,Wikipedia - Sudanese civil war (2023-present),Wikimedia Foundation,https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present),encyclopedia
+SRC033,Brookings - Ending Sudan's civil war,Brookings Institution,https://www.brookings.edu/articles/ending-sudans-civil-war-a-roadmap-to-peace-and-reconciliation/,think_tank
+SRC034,Wikipedia - Syrian civil war,Wikimedia Foundation,https://en.wikipedia.org/wiki/Syrian_civil_war,encyclopedia
+SRC035,Global Centre for the Responsibility to Protect - Syria,Global Centre for the Responsibility to Protect,https://www.globalr2p.org/countries/syria/,ngo
+SRC036,CFR Global Conflict Tracker - Conflict in Syria,Council on Foreign Relations,https://www.cfr.org/global-conflict-tracker/conflict/conflict-syria,think_tank
+SRC037,House of Commons Library - Syria one year after Assad,"UK Parliament, House of Commons Library",https://commonslibrary.parliament.uk/research-briefings/cbp-10428/,government
+SRC038,Al Jazeera - DRC & M23 Doha framework coverage,Al Jazeera Media Network,https://www.aljazeera.com/news/2025/11/15/drc-rwanda-backed-m23-sign-framework-deal-for-peace-after-talks-in-qatar,news
+SRC039,UN News - Doha agreement DRC and M23 rebels,United Nations,https://news.un.org/en/story/2025/07/1165441,un_report
+SRC040,US Department of State - DRC/M23 Doha Framework progress statement,US Department of State,https://www.state.gov/releases/office-of-the-spokesperson/2026/04/,government
+SRC041,"UN OHCHR - Commission of Inquiry reports (Rwanda, Yugoslavia, Darfur)",UN Office of the High Commissioner for Human Rights,https://www.ohchr.org/,un_report
+SRC042,US Institute of Peace - conflict timelines,United States Institute of Peace,https://www.usip.org/,think_tank
+SRC043,International Committee of the Red Cross - historical conflict archive,International Committee of the Red Cross,https://www.icrc.org/en/war-and-law,ngo
+SRC044,PRIO Battle Deaths Dataset v3.1,Peace Research Institute Oslo,https://www.prio.org/data/1,dataset
+SRC045,Congressional Research Service - country/conflict reports,US Congressional Research Service,https://www.congress.gov/,government
