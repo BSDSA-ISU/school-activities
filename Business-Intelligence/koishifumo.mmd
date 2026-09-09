@@ -1,0 +1,94 @@
+flowchart TD
+    %% High-Contrast Light Mode Styling
+    classDef layerStyle fill:#FAFAFA,stroke:#212121,stroke-width:2px;
+    classDef sourceStyle fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1;
+    classDef etlStyle fill:#FFF3E0,stroke:#E65100,stroke-width:2px,color:#E65100;
+    classDef storageStyle fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
+    classDef analysisStyle fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px,color:#4A148C;
+    classDef presStyle fill:#FCE4EC,stroke:#C2185B,stroke-width:2px,color:#880E4F;
+    classDef userStyle fill:#E0F2F1,stroke:#00695C,stroke-width:2px,color:#004D40;
+    classDef actionStyle fill:#FFF8E1,stroke:#F57F17,stroke-width:2px,color:#F57F17;
+
+    %% Layer 1: Data Sources
+    subgraph L1 ["Layer 1: Data Sources"]
+        direction TB
+        S1["Store POS Systems<br><b>(Sales & Depletion)</b>"]:::sourceStyle
+        S2["Central ERP System<br><b>(Stock & Transfer Logs)</b>"]:::sourceStyle
+        S3["Supplier & Logistics Portals<br><b>(Delivery & Lead Times)</b>"]:::sourceStyle
+        S4["Store Spoilage Logs<br><b>(Waste & Expiration)</b>"]:::sourceStyle
+    end
+
+    %% Layer 2: Data Collection and Integration
+    subgraph L2 ["Layer 2: Data Collection & Integration (ETL)"]
+        direction TB
+        E1["Extraction Layer<br><b>(API Pulls & Batch Queries)</b>"]:::etlStyle
+        E2["Transformation & Cleaning<br><b>(Standardization, Currency & Deduplication)</b>"]:::etlStyle
+        E3["Validation & Integration<br><b>(Data Quality Rules & Staging)</b>"]:::etlStyle
+        E1 --> E2 --> E3
+    end
+
+    %% Layer 3: Centralized Storage
+    subgraph L3 ["Layer 3: Centralized Storage"]
+        D1[("Cloud Data Warehouse<br><b>(Snowflake / AWS Redshift)</b>")]:::storageStyle
+    end
+
+    %% Layer 4: Data Analysis
+    subgraph L4 ["Layer 4: Data Analysis"]
+        direction TB
+        A1["Descriptive: What happened?<br><b>(Waste & Stockout Trends)</b>"]:::analysisStyle
+        A2["Diagnostic: Why did it happen?<br><b>(Peak Window Discrepancies)</b>"]:::analysisStyle
+        A3["Predictive: What may happen?<br><b>(Demand Forecasting)</b>"]:::analysisStyle
+        A4["Prescriptive: What to do?<br><b>(Auto-Reorder Thresholds)</b>"]:::analysisStyle
+    end
+
+    %% Layer 5: BI Presentation
+    subgraph L5 ["Layer 5: BI Presentation"]
+        direction TB
+        P1["Interactive Power BI Dashboards<br><b>(Stockouts, Spoilage & OTIF KPIs)</b>"]:::presStyle
+        P2["Standard Operational Reports<br><b>(Daily Store Orders)</b>"]:::presStyle
+        P3["Automated Alert Application<br><b>(Low Safety Stock Notifications)</b>"]:::presStyle
+    end
+
+    %% Layer 6: Stakeholders
+    subgraph L6 ["Layer 6: Stakeholders"]
+        direction TB
+        U1["VP of Global Supply Chain<br><b>(Primary Decision Maker)</b>"]:::userStyle
+        U2["Store Operations Managers<br><b>(Operational Leads)</b>"]:::userStyle
+        U3["Procurement Specialists<br><b>(Tactical Buyers)</b>"]:::userStyle
+    end
+
+    %% Layer 7: Business Action
+    subgraph L7 ["Layer 7: Business Action"]
+        direction TB
+        B1["Optimize Hourly Prep Schedules"]:::actionStyle
+        B2["Adjust Regional Safety Stock Rules"]:::actionStyle
+        B3["Reallocate Orders to Top Suppliers"]:::actionStyle
+    end
+
+    %% Flow Relationships (Arrows)
+    S1 --> E1
+    S2 --> E1
+    S3 --> E1
+    S4 --> E1
+
+    E3 --> D1
+    
+    D1 --> A1
+    D1 --> A2
+    D1 --> A3
+    D1 --> A4
+
+    A1 --> P1
+    A2 --> P1
+    A3 --> P2
+    A4 --> P3
+
+    P1 --> U1
+    P1 --> U2
+    P2 --> U2
+    P3 --> U3
+
+    U1 --> B3
+    U2 --> B1
+    U2 --> B2
+    U3 --> B3
