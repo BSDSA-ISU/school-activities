@@ -1,0 +1,162 @@
+# Lab Activity 2: Visualizing & Modeling Relationships"
+
+> Author: Bazar, Cyrus Troy C.
+
+```{r setup, include=FALSE}
+# Load required libraries
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+library(stringr)
+```
+
+## Question 1: Explore the File
+
+```{r setup, include=FALSE}
+file_path <- "new-homes-registration-data-2024.xlsx"
+
+sheet_names <- excel_sheets(file_path)
+sheet_names
+```
+
+> The file contains 4 sheets: "Notes", "Single Detached ", "Multi Unit Homes", and "Purpose Built Rental".
+
+## Question 2: Importing a sheet.
+
+### 1. Anticipated Problems & Data Types Analysis
+
+- **Anticipated Problems:**
+
+  - The raw Excel sheet contains metadata/title headers at the top, which will misalign column names unless rows are skipped.
+
+  - Column names like "Single Detached " contain trailing spaces that need careful targeting.
+
+- Columns Needed for Question 5:
+
+  - we do not need all rows/columns. Metadata, title notes, and unnecessary columns (like Note:) should be dropped. We only need the geographic regions/municipalities and annual numbers.
+
+- Data Types:
+
+  - Municipalities/Regional Districts are categorical (character).
+
+  - Annual counts should be numeric (numeric/integer). Reading the raw title rows without skipping will cause R to coerce numeric columns to character.
+
+### 2. Reading Sheet with No Options
+
+```{r setup, include=FALSE}
+raw_single <- read_excel(file_path, sheet = "Single Detached ")
+head(raw_single, 10)
+```
+
+Notable Observations:
+
+- Reading without options causes R to assign the top header note as the column title, resulting in automatically generated names like ...1, ...2. Numeric data is also read as character strings due to title text in early rows.
+
+### 3. Reading File Correctly & Excluding Unnecessary Columns
+
+```{r setup, include=FALSE}
+# Read without skipping rows, converting '*' to NA
+single_detached <- read_excel(file_path, sheet = "Single Detached ", na = "*")
+
+# Take only the location and year columns (columns 1 to 10)
+single_detached <- single_detached[, 1:10]
+
+# Set clear column names manually
+colnames(single_detached) <- c("Municipality", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024")
+
+# Convert year values to numeric and drop blank/NA rows
+single_detached <- single_detached %>% 
+  mutate(across(`2016`:`2024`, as.numeric)) %>% 
+  filter(!is.na(Municipality))
+
+print(head(single_detached))
+```
+
+## Question 3: Tidy Data
+
+### Principles Violation & Pivoting
+
+- **Tidy Data Violation**: Yes, individual years are spread horizontally across column headers (2016 to 2024) instead of occupying a single long-format Year variable column.
+
+```{r setup, include=FALSE}
+single_tidy <- single_detached %>% 
+  pivot_longer(
+    cols = `2016`:`2024`,
+    names_to = "Year",
+    values_to = "Units"
+  ) %>% 
+  mutate(Year = as.numeric(Year))
+
+print(head(single_tidy))
+```
+
+## Question 4: Joining Tables
+
+```{r setup, include=FALSE}
+# Function to read and tidy sheets using column indices
+import_and_tidy <- function(sheet_name, housing_label) {
+  df <- read_excel(file_path, sheet = sheet_name, na = "*")
+  df <- df[, 1:10]
+  colnames(df) <- c("Municipality", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024")
+  
+  df %>% 
+    mutate(across(`2016`:`2024`, as.numeric)) %>% 
+    filter(!is.na(Municipality)) %>% 
+    pivot_longer(
+      cols = `2016`:`2024`,
+      names_to = "Year",
+      values_to = "Units"
+    ) %>% 
+    mutate(
+      Year = as.numeric(Year),
+      Housing_Type = housing_label
+    )
+}
+
+# Import and tidy all three sheets
+single_tidy_df <- import_and_tidy("Single Detached ", "Single Detached")
+multi_tidy_df  <- import_and_tidy("Multi Unit Homes", "Multi Unit Homes")
+rental_tidy_df <- import_and_tidy("Purpose Built Rental", "Purpose Built Rental")
+
+# Combine into a single master table
+all_housing_tidy <- bind_rows(single_tidy_df, multi_tidy_df, rental_tidy_df)
+
+print(head(all_housing_tidy))
+```
+
+## Question 5: EDA - Plotting
+
+**Top 10 Municipalities by Total Housing Units Built Across All Years:**
+
+```{r q5-plot}
+
+# Define non-municipality entries to exclude
+regional_districts <- c("Metro Vancouver", "Capital", "Central Okanagan", "Fraser Valley")
+
+# Filter, clean string symbols, and aggregate top 10
+top_10_muni <- all_housing_tidy %>% 
+  # Clean out asterisks and whitespace from municipality names
+  mutate(Municipality = str_remove_all(Municipality, "\\*") %>% str_trim()) %>% 
+  filter(!grepl("Other communities", Municipality, ignore.case = TRUE)) %>% 
+  filter(!Municipality %in% regional_districts) %>% 
+  group_by(Municipality) %>% 
+  summarise(Total_Units = sum(Units, na.rm = TRUE)) %>% 
+  slice_max(order_by = Total_Units, n = 10)
+
+# Create sorted horizontal bar chart
+ggplot(top_10_muni, aes(x = fct_reorder(Municipality, Total_Units), y = Total_Units)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(
+    title = "Top 10 B.C. Municipalities by Total Housing Units Built",
+    subtitle = "Combined totals for Single Detached, Multi-Unit, and Rental Units (2016-2024)",
+    x = "Municipality",
+    y = "Total Units Built"
+  ) +
+  theme_minimal()
+
+```
+
+> The bar plot highlights the top 10 municipalities with the highest total housing registrations from 2016 to 2024. The `fct_reorder()` function sorts the bars from highest to lowest volume.

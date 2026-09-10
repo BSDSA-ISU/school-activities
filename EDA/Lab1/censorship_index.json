@@ -1,0 +1,5323 @@
+{
+  "metadata": {
+    "name": "Voidly Global Censorship Index",
+    "version": "1.0.0",
+    "description": "Real-time global internet censorship measurements",
+    "license": "CC-BY-4.0",
+    "source": "https://voidly.ai/censorship-index",
+    "methodology": "https://voidly.ai/methodology",
+    "total_measurements": 38780449,
+    "countries_covered": 200,
+    "last_updated": "2026-08-08T03:42:51.331808"
+  },
+  "data": [
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "censorship_score": 61,
+      "threat_level": "severe",
+      "block_rate": 0.6149,
+      "total_measurements": 880281,
+      "blocked_measurements": 541311,
+      "web_connectivity_tests": 868854,
+      "telegram_tests": 5622,
+      "whatsapp_tests": 5805,
+      "isp_count": 9,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9808",
+          "name": "China Mobile",
+          "block_rate": 0.623
+        },
+        {
+          "asn": "AS4837",
+          "name": "China Unicom",
+          "block_rate": 0.476
+        },
+        {
+          "asn": "AS56044",
+          "name": "AS56044",
+          "block_rate": 0.43
+        },
+        {
+          "asn": "AS4134",
+          "name": "China Telecom",
+          "block_rate": 0.426
+        },
+        {
+          "asn": "AS24400",
+          "name": "AS24400",
+          "block_rate": 0.415
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 1
+    },
+    {
+      "country_code": "KG",
+      "country_name": "KG",
+      "censorship_score": 48,
+      "threat_level": "high",
+      "block_rate": 0.4828,
+      "total_measurements": 29,
+      "blocked_measurements": 14,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 2
+    },
+    {
+      "country_code": "IR",
+      "country_name": "Iran",
+      "censorship_score": 45,
+      "threat_level": "high",
+      "block_rate": 0.4517,
+      "total_measurements": 590398,
+      "blocked_measurements": 266692,
+      "web_connectivity_tests": 567777,
+      "telegram_tests": 11260,
+      "whatsapp_tests": 11361,
+      "isp_count": 25,
+      "top_blocking_isps": [
+        {
+          "asn": "AS48359",
+          "name": "AS48359",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS16322",
+          "name": "AS16322",
+          "block_rate": 0.688
+        },
+        {
+          "asn": "AS24631",
+          "name": "AS24631",
+          "block_rate": 0.617
+        },
+        {
+          "asn": "AS49100",
+          "name": "AS49100",
+          "block_rate": 0.603
+        },
+        {
+          "asn": "AS41881",
+          "name": "AS41881",
+          "block_rate": 0.563
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 3
+    },
+    {
+      "country_code": "RU",
+      "country_name": "Russia",
+      "censorship_score": 37,
+      "threat_level": "high",
+      "block_rate": 0.3686,
+      "total_measurements": 1134900,
+      "blocked_measurements": 418365,
+      "web_connectivity_tests": 929273,
+      "telegram_tests": 100739,
+      "whatsapp_tests": 104888,
+      "isp_count": 176,
+      "top_blocking_isps": [
+        {
+          "asn": "AS15493",
+          "name": "AS15493",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS197204",
+          "name": "AS197204",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS203527",
+          "name": "AS203527",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS21453",
+          "name": "AS21453",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS39045",
+          "name": "AS39045",
+          "block_rate": 1.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 4
+    },
+    {
+      "country_code": "SS",
+      "country_name": "SS",
+      "censorship_score": 37,
+      "threat_level": "high",
+      "block_rate": 0.3684,
+      "total_measurements": 19,
+      "blocked_measurements": 7,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 5
+    },
+    {
+      "country_code": "MU",
+      "country_name": "MU",
+      "censorship_score": 33,
+      "threat_level": "high",
+      "block_rate": 0.3333,
+      "total_measurements": 15,
+      "blocked_measurements": 5,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 6
+    },
+    {
+      "country_code": "GA",
+      "country_name": "GA",
+      "censorship_score": 31,
+      "threat_level": "high",
+      "block_rate": 0.3109,
+      "total_measurements": 119,
+      "blocked_measurements": 37,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 7
+    },
+    {
+      "country_code": "VE",
+      "country_name": "Venezuela",
+      "censorship_score": 18,
+      "threat_level": "medium",
+      "block_rate": 0.1791,
+      "total_measurements": 947114,
+      "blocked_measurements": 169642,
+      "web_connectivity_tests": 919453,
+      "telegram_tests": 13804,
+      "whatsapp_tests": 13857,
+      "isp_count": 18,
+      "top_blocking_isps": [
+        {
+          "asn": "AS21826",
+          "name": "AS21826",
+          "block_rate": 0.264
+        },
+        {
+          "asn": "AS264731",
+          "name": "AS264731",
+          "block_rate": 0.25
+        },
+        {
+          "asn": "AS8048",
+          "name": "AS8048",
+          "block_rate": 0.185
+        },
+        {
+          "asn": "AS273024",
+          "name": "AS273024",
+          "block_rate": 0.13
+        },
+        {
+          "asn": "AS6306",
+          "name": "AS6306",
+          "block_rate": 0.118
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 8
+    },
+    {
+      "country_code": "MM",
+      "country_name": "Myanmar",
+      "censorship_score": 16,
+      "threat_level": "medium",
+      "block_rate": 0.162,
+      "total_measurements": 470088,
+      "blocked_measurements": 76138,
+      "web_connectivity_tests": 464885,
+      "telegram_tests": 2604,
+      "whatsapp_tests": 2599,
+      "isp_count": 15,
+      "top_blocking_isps": [
+        {
+          "asn": "AS133385",
+          "name": "AS133385",
+          "block_rate": 0.327
+        },
+        {
+          "asn": "AS135300",
+          "name": "AS135300",
+          "block_rate": 0.29
+        },
+        {
+          "asn": "AS58952",
+          "name": "AS58952",
+          "block_rate": 0.29
+        },
+        {
+          "asn": "AS134840",
+          "name": "AS134840",
+          "block_rate": 0.267
+        },
+        {
+          "asn": "AS136442",
+          "name": "AS136442",
+          "block_rate": 0.241
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 9
+    },
+    {
+      "country_code": "NP",
+      "country_name": "NP",
+      "censorship_score": 16,
+      "threat_level": "medium",
+      "block_rate": 0.1562,
+      "total_measurements": 128,
+      "blocked_measurements": 20,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 10
+    },
+    {
+      "country_code": "YE",
+      "country_name": "Yemen",
+      "censorship_score": 15,
+      "threat_level": "medium",
+      "block_rate": 0.1528,
+      "total_measurements": 143461,
+      "blocked_measurements": 21918,
+      "web_connectivity_tests": 140543,
+      "telegram_tests": 1460,
+      "whatsapp_tests": 1458,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS30873",
+          "name": "AS30873",
+          "block_rate": 0.144
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.018
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 11
+    },
+    {
+      "country_code": "AE",
+      "country_name": "United Arab Emirates",
+      "censorship_score": 14,
+      "threat_level": "medium",
+      "block_rate": 0.1359,
+      "total_measurements": 438116,
+      "blocked_measurements": 59534,
+      "web_connectivity_tests": 428861,
+      "telegram_tests": 4608,
+      "whatsapp_tests": 4647,
+      "isp_count": 5,
+      "top_blocking_isps": [
+        {
+          "asn": "AS44578",
+          "name": "AS44578",
+          "block_rate": 0.212
+        },
+        {
+          "asn": "AS5384",
+          "name": "AS5384",
+          "block_rate": 0.113
+        },
+        {
+          "asn": "AS15802",
+          "name": "AS15802",
+          "block_rate": 0.029
+        },
+        {
+          "asn": "AS16509",
+          "name": "AS16509",
+          "block_rate": 0.026
+        },
+        {
+          "asn": "AS9009",
+          "name": "AS9009",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 12
+    },
+    {
+      "country_code": "SA",
+      "country_name": "Saudi Arabia",
+      "censorship_score": 14,
+      "threat_level": "medium",
+      "block_rate": 0.1365,
+      "total_measurements": 330517,
+      "blocked_measurements": 45131,
+      "web_connectivity_tests": 323544,
+      "telegram_tests": 3474,
+      "whatsapp_tests": 3499,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS15505",
+          "name": "AS15505",
+          "block_rate": 0.63
+        },
+        {
+          "asn": "AS25019",
+          "name": "AS25019",
+          "block_rate": 0.144
+        },
+        {
+          "asn": "AS43766",
+          "name": "AS43766",
+          "block_rate": 0.121
+        },
+        {
+          "asn": "AS35753",
+          "name": "AS35753",
+          "block_rate": 0.11
+        },
+        {
+          "asn": "AS39891",
+          "name": "AS39891",
+          "block_rate": 0.086
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 13
+    },
+    {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "censorship_score": 12,
+      "threat_level": "medium",
+      "block_rate": 0.119,
+      "total_measurements": 706714,
+      "blocked_measurements": 84106,
+      "web_connectivity_tests": 690619,
+      "telegram_tests": 8023,
+      "whatsapp_tests": 8072,
+      "isp_count": 32,
+      "top_blocking_isps": [
+        {
+          "asn": "AS150371",
+          "name": "AS150371",
+          "block_rate": 0.378
+        },
+        {
+          "asn": "AS23674",
+          "name": "AS23674",
+          "block_rate": 0.207
+        },
+        {
+          "asn": "AS45773",
+          "name": "AS45773",
+          "block_rate": 0.2
+        },
+        {
+          "asn": "AS151648",
+          "name": "AS151648",
+          "block_rate": 0.153
+        },
+        {
+          "asn": "AS135407",
+          "name": "AS135407",
+          "block_rate": 0.148
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 14
+    },
+    {
+      "country_code": "EG",
+      "country_name": "Egypt",
+      "censorship_score": 12,
+      "threat_level": "medium",
+      "block_rate": 0.1178,
+      "total_measurements": 388130,
+      "blocked_measurements": 45735,
+      "web_connectivity_tests": 380232,
+      "telegram_tests": 3888,
+      "whatsapp_tests": 4010,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS36935",
+          "name": "AS36935",
+          "block_rate": 0.075
+        },
+        {
+          "asn": "AS24835",
+          "name": "AS24835",
+          "block_rate": 0.06
+        },
+        {
+          "asn": "AS13335",
+          "name": "AS13335",
+          "block_rate": 0.056
+        },
+        {
+          "asn": "AS8452",
+          "name": "AS8452",
+          "block_rate": 0.045
+        },
+        {
+          "asn": "AS24863",
+          "name": "AS24863",
+          "block_rate": 0.017
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 15
+    },
+    {
+      "country_code": "TZ",
+      "country_name": "TZ",
+      "censorship_score": 12,
+      "threat_level": "medium",
+      "block_rate": 0.116,
+      "total_measurements": 288744,
+      "blocked_measurements": 33501,
+      "web_connectivity_tests": 281740,
+      "telegram_tests": 3495,
+      "whatsapp_tests": 3509,
+      "isp_count": 12,
+      "top_blocking_isps": [
+        {
+          "asn": "AS32860",
+          "name": "AS32860",
+          "block_rate": 0.223
+        },
+        {
+          "asn": "AS327885",
+          "name": "AS327885",
+          "block_rate": 0.202
+        },
+        {
+          "asn": "AS36908",
+          "name": "AS36908",
+          "block_rate": 0.169
+        },
+        {
+          "asn": "AS36909",
+          "name": "AS36909",
+          "block_rate": 0.167
+        },
+        {
+          "asn": "AS33765",
+          "name": "AS33765",
+          "block_rate": 0.159
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 16
+    },
+    {
+      "country_code": "BY",
+      "country_name": "Belarus",
+      "censorship_score": 11,
+      "threat_level": "medium",
+      "block_rate": 0.1068,
+      "total_measurements": 741947,
+      "blocked_measurements": 79213,
+      "web_connectivity_tests": 724133,
+      "telegram_tests": 8906,
+      "whatsapp_tests": 8908,
+      "isp_count": 10,
+      "top_blocking_isps": [
+        {
+          "asn": "AS42772",
+          "name": "AS42772",
+          "block_rate": 0.216
+        },
+        {
+          "asn": "AS50685",
+          "name": "AS50685",
+          "block_rate": 0.087
+        },
+        {
+          "asn": "AS50334",
+          "name": "AS50334",
+          "block_rate": 0.083
+        },
+        {
+          "asn": "AS12406",
+          "name": "AS12406",
+          "block_rate": 0.068
+        },
+        {
+          "asn": "AS209283",
+          "name": "AS209283",
+          "block_rate": 0.06
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 17
+    },
+    {
+      "country_code": "KZ",
+      "country_name": "Kazakhstan",
+      "censorship_score": 10,
+      "threat_level": "low",
+      "block_rate": 0.0987,
+      "total_measurements": 798864,
+      "blocked_measurements": 78813,
+      "web_connectivity_tests": 770332,
+      "telegram_tests": 14269,
+      "whatsapp_tests": 14263,
+      "isp_count": 19,
+      "top_blocking_isps": [
+        {
+          "asn": "AS29355",
+          "name": "AS29355",
+          "block_rate": 0.375
+        },
+        {
+          "asn": "AS203087",
+          "name": "AS203087",
+          "block_rate": 0.232
+        },
+        {
+          "asn": "AS43370",
+          "name": "AS43370",
+          "block_rate": 0.14
+        },
+        {
+          "asn": "AS834",
+          "name": "AS834",
+          "block_rate": 0.133
+        },
+        {
+          "asn": "AS48716",
+          "name": "AS48716",
+          "block_rate": 0.119
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 18
+    },
+    {
+      "country_code": "KR",
+      "country_name": "South Korea",
+      "censorship_score": 9,
+      "threat_level": "low",
+      "block_rate": 0.0939,
+      "total_measurements": 481010,
+      "blocked_measurements": 45176,
+      "web_connectivity_tests": 471956,
+      "telegram_tests": 4521,
+      "whatsapp_tests": 4533,
+      "isp_count": 13,
+      "top_blocking_isps": [
+        {
+          "asn": "AS13335",
+          "name": "AS13335",
+          "block_rate": 0.12
+        },
+        {
+          "asn": "AS9318",
+          "name": "AS9318",
+          "block_rate": 0.055
+        },
+        {
+          "asn": "AS9316",
+          "name": "AS9316",
+          "block_rate": 0.051
+        },
+        {
+          "asn": "AS17853",
+          "name": "AS17853",
+          "block_rate": 0.048
+        },
+        {
+          "asn": "AS9644",
+          "name": "AS9644",
+          "block_rate": 0.048
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 19
+    },
+    {
+      "country_code": "CU",
+      "country_name": "Cuba",
+      "censorship_score": 9,
+      "threat_level": "low",
+      "block_rate": 0.0892,
+      "total_measurements": 40760,
+      "blocked_measurements": 3636,
+      "web_connectivity_tests": 39514,
+      "telegram_tests": 626,
+      "whatsapp_tests": 620,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9009",
+          "name": "AS9009",
+          "block_rate": 0.043
+        },
+        {
+          "asn": "AS27725",
+          "name": "AS27725",
+          "block_rate": 0.035
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 20
+    },
+    {
+      "country_code": "EC",
+      "country_name": "EC",
+      "censorship_score": 9,
+      "threat_level": "low",
+      "block_rate": 0.0851,
+      "total_measurements": 47,
+      "blocked_measurements": 4,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 21
+    },
+    {
+      "country_code": "BF",
+      "country_name": "BF",
+      "censorship_score": 9,
+      "threat_level": "low",
+      "block_rate": 0.087,
+      "total_measurements": 23,
+      "blocked_measurements": 2,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 22
+    },
+    {
+      "country_code": "SO",
+      "country_name": "SO",
+      "censorship_score": 9,
+      "threat_level": "low",
+      "block_rate": 0.0909,
+      "total_measurements": 22,
+      "blocked_measurements": 2,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 23
+    },
+    {
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "censorship_score": 8,
+      "threat_level": "low",
+      "block_rate": 0.08,
+      "total_measurements": 930566,
+      "blocked_measurements": 74399,
+      "web_connectivity_tests": 893311,
+      "telegram_tests": 18621,
+      "whatsapp_tests": 18634,
+      "isp_count": 21,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9905",
+          "name": "AS9905",
+          "block_rate": 0.074
+        },
+        {
+          "asn": "AS17451",
+          "name": "AS17451",
+          "block_rate": 0.062
+        },
+        {
+          "asn": "AS18004",
+          "name": "AS18004",
+          "block_rate": 0.052
+        },
+        {
+          "asn": "AS17538",
+          "name": "AS17538",
+          "block_rate": 0.049
+        },
+        {
+          "asn": "AS24203",
+          "name": "AS24203",
+          "block_rate": 0.048
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 24
+    },
+    {
+      "country_code": "TR",
+      "country_name": "Turkey",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0732,
+      "total_measurements": 938975,
+      "blocked_measurements": 68772,
+      "web_connectivity_tests": 911510,
+      "telegram_tests": 13753,
+      "whatsapp_tests": 13712,
+      "isp_count": 18,
+      "top_blocking_isps": [
+        {
+          "asn": "AS16135",
+          "name": "AS16135",
+          "block_rate": 0.371
+        },
+        {
+          "asn": "AS47331",
+          "name": "AS47331",
+          "block_rate": 0.105
+        },
+        {
+          "asn": "AS206375",
+          "name": "AS206375",
+          "block_rate": 0.06
+        },
+        {
+          "asn": "AS211735",
+          "name": "AS211735",
+          "block_rate": 0.06
+        },
+        {
+          "asn": "AS34984",
+          "name": "AS34984",
+          "block_rate": 0.058
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 25
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italy",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0663,
+      "total_measurements": 829546,
+      "blocked_measurements": 54961,
+      "web_connectivity_tests": 783462,
+      "telegram_tests": 23011,
+      "whatsapp_tests": 23073,
+      "isp_count": 21,
+      "top_blocking_isps": [
+        {
+          "asn": "AS1267",
+          "name": "AS1267",
+          "block_rate": 0.102
+        },
+        {
+          "asn": "AS60068",
+          "name": "AS60068",
+          "block_rate": 0.092
+        },
+        {
+          "asn": "AS30722",
+          "name": "AS30722",
+          "block_rate": 0.065
+        },
+        {
+          "asn": "AS202098",
+          "name": "AS202098",
+          "block_rate": 0.047
+        },
+        {
+          "asn": "AS210657",
+          "name": "AS210657",
+          "block_rate": 0.032
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 26
+    },
+    {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0717,
+      "total_measurements": 713589,
+      "blocked_measurements": 51163,
+      "web_connectivity_tests": 688013,
+      "telegram_tests": 12753,
+      "whatsapp_tests": 12823,
+      "isp_count": 39,
+      "top_blocking_isps": [
+        {
+          "asn": "AS31725",
+          "name": "AS31725",
+          "block_rate": 1.0
+        },
+        {
+          "asn": "AS59833",
+          "name": "AS59833",
+          "block_rate": 0.384
+        },
+        {
+          "asn": "AS34867",
+          "name": "AS34867",
+          "block_rate": 0.19
+        },
+        {
+          "asn": "AS12963",
+          "name": "AS12963",
+          "block_rate": 0.183
+        },
+        {
+          "asn": "AS6877",
+          "name": "AS6877",
+          "block_rate": 0.123
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 27
+    },
+    {
+      "country_code": "DZ",
+      "country_name": "DZ",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0661,
+      "total_measurements": 339645,
+      "blocked_measurements": 22449,
+      "web_connectivity_tests": 331951,
+      "telegram_tests": 3845,
+      "whatsapp_tests": 3849,
+      "isp_count": 5,
+      "top_blocking_isps": [
+        {
+          "asn": "AS36947",
+          "name": "AS36947",
+          "block_rate": 0.089
+        },
+        {
+          "asn": "AS329494",
+          "name": "AS329494",
+          "block_rate": 0.052
+        },
+        {
+          "asn": "AS327931",
+          "name": "AS327931",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS327712",
+          "name": "AS327712",
+          "block_rate": 0.022
+        },
+        {
+          "asn": "AS33779",
+          "name": "AS33779",
+          "block_rate": 0.017
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 28
+    },
+    {
+      "country_code": "UZ",
+      "country_name": "Uzbekistan",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0664,
+      "total_measurements": 192511,
+      "blocked_measurements": 12780,
+      "web_connectivity_tests": 188619,
+      "telegram_tests": 1948,
+      "whatsapp_tests": 1944,
+      "isp_count": 5,
+      "top_blocking_isps": [
+        {
+          "asn": "AS201767",
+          "name": "AS201767",
+          "block_rate": 0.099
+        },
+        {
+          "asn": "AS12365",
+          "name": "AS12365",
+          "block_rate": 0.081
+        },
+        {
+          "asn": "AS43060",
+          "name": "AS43060",
+          "block_rate": 0.067
+        },
+        {
+          "asn": "AS8193",
+          "name": "AS8193",
+          "block_rate": 0.041
+        },
+        {
+          "asn": "AS49273",
+          "name": "AS49273",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 29
+    },
+    {
+      "country_code": "OM",
+      "country_name": "OM",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0729,
+      "total_measurements": 89164,
+      "blocked_measurements": 6500,
+      "web_connectivity_tests": 87388,
+      "telegram_tests": 887,
+      "whatsapp_tests": 889,
+      "isp_count": 3,
+      "top_blocking_isps": [
+        {
+          "asn": "AS50010",
+          "name": "AS50010",
+          "block_rate": 0.641
+        },
+        {
+          "asn": "AS28885",
+          "name": "AS28885",
+          "block_rate": 0.102
+        },
+        {
+          "asn": "AS204170",
+          "name": "AS204170",
+          "block_rate": 0.096
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 30
+    },
+    {
+      "country_code": "AZ",
+      "country_name": "AZ",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0658,
+      "total_measurements": 63994,
+      "blocked_measurements": 4209,
+      "web_connectivity_tests": 62341,
+      "telegram_tests": 826,
+      "whatsapp_tests": 827,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS28787",
+          "name": "AS28787",
+          "block_rate": 0.038
+        },
+        {
+          "asn": "AS57293",
+          "name": "AS57293",
+          "block_rate": 0.025
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 31
+    },
+    {
+      "country_code": "BH",
+      "country_name": "BH",
+      "censorship_score": 7,
+      "threat_level": "low",
+      "block_rate": 0.0722,
+      "total_measurements": 38993,
+      "blocked_measurements": 2816,
+      "web_connectivity_tests": 38223,
+      "telegram_tests": 385,
+      "whatsapp_tests": 385,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS5416",
+          "name": "AS5416",
+          "block_rate": 0.014
+        },
+        {
+          "asn": "AS31452",
+          "name": "AS31452",
+          "block_rate": 0.01
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 32
+    },
+    {
+      "country_code": "IN",
+      "country_name": "India",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0568,
+      "total_measurements": 881253,
+      "blocked_measurements": 50051,
+      "web_connectivity_tests": 837815,
+      "telegram_tests": 21312,
+      "whatsapp_tests": 22126,
+      "isp_count": 35,
+      "top_blocking_isps": [
+        {
+          "asn": "AS18229",
+          "name": "AS18229",
+          "block_rate": 0.1
+        },
+        {
+          "asn": "AS133660",
+          "name": "AS133660",
+          "block_rate": 0.093
+        },
+        {
+          "asn": "AS132780",
+          "name": "AS132780",
+          "block_rate": 0.085
+        },
+        {
+          "asn": "AS38266",
+          "name": "AS38266",
+          "block_rate": 0.084
+        },
+        {
+          "asn": "AS47589",
+          "name": "AS47589",
+          "block_rate": 0.07
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 33
+    },
+    {
+      "country_code": "IQ",
+      "country_name": "Iraq",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0638,
+      "total_measurements": 431306,
+      "blocked_measurements": 27532,
+      "web_connectivity_tests": 419930,
+      "telegram_tests": 5709,
+      "whatsapp_tests": 5667,
+      "isp_count": 16,
+      "top_blocking_isps": [
+        {
+          "asn": "AS210402",
+          "name": "AS210402",
+          "block_rate": 0.402
+        },
+        {
+          "asn": "AS198589",
+          "name": "AS198589",
+          "block_rate": 0.11
+        },
+        {
+          "asn": "AS174",
+          "name": "AS174",
+          "block_rate": 0.101
+        },
+        {
+          "asn": "AS211908",
+          "name": "AS211908",
+          "block_rate": 0.098
+        },
+        {
+          "asn": "AS209193",
+          "name": "AS209193",
+          "block_rate": 0.073
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 34
+    },
+    {
+      "country_code": "ET",
+      "country_name": "ET",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0584,
+      "total_measurements": 314204,
+      "blocked_measurements": 18363,
+      "web_connectivity_tests": 307375,
+      "telegram_tests": 3419,
+      "whatsapp_tests": 3410,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS328988",
+          "name": "AS328988",
+          "block_rate": 0.061
+        },
+        {
+          "asn": "AS24757",
+          "name": "AS24757",
+          "block_rate": 0.03
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 35
+    },
+    {
+      "country_code": "QA",
+      "country_name": "QA",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.065,
+      "total_measurements": 63100,
+      "blocked_measurements": 4100,
+      "web_connectivity_tests": 62005,
+      "telegram_tests": 552,
+      "whatsapp_tests": 543,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS48728",
+          "name": "AS48728",
+          "block_rate": 0.007
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 36
+    },
+    {
+      "country_code": "KW",
+      "country_name": "KW",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0552,
+      "total_measurements": 23985,
+      "blocked_measurements": 1325,
+      "web_connectivity_tests": 23516,
+      "telegram_tests": 234,
+      "whatsapp_tests": 235,
+      "isp_count": 3,
+      "top_blocking_isps": [
+        {
+          "asn": "AS47589",
+          "name": "AS47589",
+          "block_rate": 0.093
+        },
+        {
+          "asn": "AS29357",
+          "name": "AS29357",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS42961",
+          "name": "AS42961",
+          "block_rate": 0.019
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 37
+    },
+    {
+      "country_code": "LA",
+      "country_name": "LA",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0624,
+      "total_measurements": 12517,
+      "blocked_measurements": 781,
+      "web_connectivity_tests": 12293,
+      "telegram_tests": 112,
+      "whatsapp_tests": 112,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 38
+    },
+    {
+      "country_code": "SD",
+      "country_name": "SD",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0639,
+      "total_measurements": 9243,
+      "blocked_measurements": 591,
+      "web_connectivity_tests": 9055,
+      "telegram_tests": 95,
+      "whatsapp_tests": 93,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.034
+        },
+        {
+          "asn": "AS15706",
+          "name": "AS15706",
+          "block_rate": 0.022
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 39
+    },
+    {
+      "country_code": "TM",
+      "country_name": "TM",
+      "censorship_score": 6,
+      "threat_level": "low",
+      "block_rate": 0.0554,
+      "total_measurements": 307,
+      "blocked_measurements": 17,
+      "web_connectivity_tests": 300,
+      "telegram_tests": 2,
+      "whatsapp_tests": 5,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 40
+    },
+    {
+      "country_code": "KE",
+      "country_name": "Kenya",
+      "censorship_score": 5,
+      "threat_level": "low",
+      "block_rate": 0.0506,
+      "total_measurements": 734637,
+      "blocked_measurements": 37198,
+      "web_connectivity_tests": 717886,
+      "telegram_tests": 8384,
+      "whatsapp_tests": 8367,
+      "isp_count": 20,
+      "top_blocking_isps": [
+        {
+          "asn": "AS37061",
+          "name": "AS37061",
+          "block_rate": 0.09
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.08
+        },
+        {
+          "asn": "AS329211",
+          "name": "AS329211",
+          "block_rate": 0.033
+        },
+        {
+          "asn": "AS12455",
+          "name": "AS12455",
+          "block_rate": 0.031
+        },
+        {
+          "asn": "AS37129",
+          "name": "AS37129",
+          "block_rate": 0.028
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 41
+    },
+    {
+      "country_code": "SY",
+      "country_name": "Syria",
+      "censorship_score": 5,
+      "threat_level": "low",
+      "block_rate": 0.0537,
+      "total_measurements": 399454,
+      "blocked_measurements": 21470,
+      "web_connectivity_tests": 396716,
+      "telegram_tests": 1363,
+      "whatsapp_tests": 1375,
+      "isp_count": 4,
+      "top_blocking_isps": [
+        {
+          "asn": "AS48065",
+          "name": "AS48065",
+          "block_rate": 0.073
+        },
+        {
+          "asn": "AS214707",
+          "name": "AS214707",
+          "block_rate": 0.07
+        },
+        {
+          "asn": "AS29256",
+          "name": "AS29256",
+          "block_rate": 0.051
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.021
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 42
+    },
+    {
+      "country_code": "JO",
+      "country_name": "JO",
+      "censorship_score": 5,
+      "threat_level": "free",
+      "block_rate": 0.0484,
+      "total_measurements": 218558,
+      "blocked_measurements": 10587,
+      "web_connectivity_tests": 213528,
+      "telegram_tests": 2515,
+      "whatsapp_tests": 2515,
+      "isp_count": 7,
+      "top_blocking_isps": [
+        {
+          "asn": "AS60849",
+          "name": "AS60849",
+          "block_rate": 0.11
+        },
+        {
+          "asn": "AS48832",
+          "name": "AS48832",
+          "block_rate": 0.07
+        },
+        {
+          "asn": "AS9038",
+          "name": "AS9038",
+          "block_rate": 0.07
+        },
+        {
+          "asn": "AS8697",
+          "name": "AS8697",
+          "block_rate": 0.067
+        },
+        {
+          "asn": "AS8376",
+          "name": "AS8376",
+          "block_rate": 0.044
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 43
+    },
+    {
+      "country_code": "KH",
+      "country_name": "KH",
+      "censorship_score": 5,
+      "threat_level": "low",
+      "block_rate": 0.0504,
+      "total_measurements": 157118,
+      "blocked_measurements": 7919,
+      "web_connectivity_tests": 154056,
+      "telegram_tests": 1501,
+      "whatsapp_tests": 1561,
+      "isp_count": 11,
+      "top_blocking_isps": [
+        {
+          "asn": "AS133070",
+          "name": "AS133070",
+          "block_rate": 0.223
+        },
+        {
+          "asn": "AS136255",
+          "name": "AS136255",
+          "block_rate": 0.169
+        },
+        {
+          "asn": "AS23673",
+          "name": "AS23673",
+          "block_rate": 0.085
+        },
+        {
+          "asn": "AS17976",
+          "name": "AS17976",
+          "block_rate": 0.083
+        },
+        {
+          "asn": "AS45498",
+          "name": "AS45498",
+          "block_rate": 0.063
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 44
+    },
+    {
+      "country_code": "LY",
+      "country_name": "LY",
+      "censorship_score": 5,
+      "threat_level": "free",
+      "block_rate": 0.0458,
+      "total_measurements": 98112,
+      "blocked_measurements": 4490,
+      "web_connectivity_tests": 95800,
+      "telegram_tests": 1156,
+      "whatsapp_tests": 1156,
+      "isp_count": 6,
+      "top_blocking_isps": [
+        {
+          "asn": "AS21003",
+          "name": "AS21003",
+          "block_rate": 0.115
+        },
+        {
+          "asn": "AS328200",
+          "name": "AS328200",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS328539",
+          "name": "AS328539",
+          "block_rate": 0.016
+        },
+        {
+          "asn": "AS37284",
+          "name": "AS37284",
+          "block_rate": 0.014
+        },
+        {
+          "asn": "AS328611",
+          "name": "AS328611",
+          "block_rate": 0.01
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 45
+    },
+    {
+      "country_code": "MZ",
+      "country_name": "MZ",
+      "censorship_score": 5,
+      "threat_level": "free",
+      "block_rate": 0.0469,
+      "total_measurements": 7055,
+      "blocked_measurements": 331,
+      "web_connectivity_tests": 6913,
+      "telegram_tests": 71,
+      "whatsapp_tests": 71,
+      "isp_count": 1,
+      "top_blocking_isps": [
+        {
+          "asn": "AS30619",
+          "name": "AS30619",
+          "block_rate": 0.045
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 46
+    },
+    {
+      "country_code": "ES",
+      "country_name": "Spain",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0358,
+      "total_measurements": 1105276,
+      "blocked_measurements": 39518,
+      "web_connectivity_tests": 765807,
+      "telegram_tests": 169323,
+      "whatsapp_tests": 170146,
+      "isp_count": 17,
+      "top_blocking_isps": [
+        {
+          "asn": "AS12334",
+          "name": "AS12334",
+          "block_rate": 0.034
+        },
+        {
+          "asn": "AS15704",
+          "name": "AS15704",
+          "block_rate": 0.032
+        },
+        {
+          "asn": "AS50563",
+          "name": "AS50563",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS8560",
+          "name": "AS8560",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS6739",
+          "name": "AS6739",
+          "block_rate": 0.028
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 47
+    },
+    {
+      "country_code": "MY",
+      "country_name": "Malaysia",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0369,
+      "total_measurements": 952724,
+      "blocked_measurements": 35108,
+      "web_connectivity_tests": 929512,
+      "telegram_tests": 11644,
+      "whatsapp_tests": 11568,
+      "isp_count": 7,
+      "top_blocking_isps": [
+        {
+          "asn": "AS4788",
+          "name": "AS4788",
+          "block_rate": 0.029
+        },
+        {
+          "asn": "AS38466",
+          "name": "AS38466",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS9930",
+          "name": "AS9930",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS55720",
+          "name": "AS55720",
+          "block_rate": 0.014
+        },
+        {
+          "asn": "AS4818",
+          "name": "AS4818",
+          "block_rate": 0.007
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 48
+    },
+    {
+      "country_code": "VN",
+      "country_name": "Vietnam",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0447,
+      "total_measurements": 948115,
+      "blocked_measurements": 42347,
+      "web_connectivity_tests": 929915,
+      "telegram_tests": 9111,
+      "whatsapp_tests": 9089,
+      "isp_count": 10,
+      "top_blocking_isps": [
+        {
+          "asn": "AS45903",
+          "name": "AS45903",
+          "block_rate": 0.058
+        },
+        {
+          "asn": "AS7552",
+          "name": "AS7552",
+          "block_rate": 0.05
+        },
+        {
+          "asn": "AS45899",
+          "name": "AS45899",
+          "block_rate": 0.038
+        },
+        {
+          "asn": "AS18403",
+          "name": "AS18403",
+          "block_rate": 0.035
+        },
+        {
+          "asn": "AS24173",
+          "name": "AS24173",
+          "block_rate": 0.03
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 49
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0442,
+      "total_measurements": 893156,
+      "blocked_measurements": 39511,
+      "web_connectivity_tests": 792686,
+      "telegram_tests": 50248,
+      "whatsapp_tests": 50222,
+      "isp_count": 15,
+      "top_blocking_isps": [
+        {
+          "asn": "AS834",
+          "name": "AS834",
+          "block_rate": 0.3
+        },
+        {
+          "asn": "AS16276",
+          "name": "AS16276",
+          "block_rate": 0.14
+        },
+        {
+          "asn": "AS5410",
+          "name": "AS5410",
+          "block_rate": 0.044
+        },
+        {
+          "asn": "AS13335",
+          "name": "AS13335",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS16347",
+          "name": "AS16347",
+          "block_rate": 0.039
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 50
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Switzerland",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0363,
+      "total_measurements": 754157,
+      "blocked_measurements": 27398,
+      "web_connectivity_tests": 726578,
+      "telegram_tests": 13786,
+      "whatsapp_tests": 13793,
+      "isp_count": 19,
+      "top_blocking_isps": [
+        {
+          "asn": "AS60068",
+          "name": "AS60068",
+          "block_rate": 0.433
+        },
+        {
+          "asn": "AS559",
+          "name": "AS559",
+          "block_rate": 0.05
+        },
+        {
+          "asn": "AS3303",
+          "name": "AS3303",
+          "block_rate": 0.031
+        },
+        {
+          "asn": "AS9009",
+          "name": "AS9009",
+          "block_rate": 0.028
+        },
+        {
+          "asn": "AS51852",
+          "name": "AS51852",
+          "block_rate": 0.027
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 51
+    },
+    {
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0367,
+      "total_measurements": 629627,
+      "blocked_measurements": 23094,
+      "web_connectivity_tests": 616750,
+      "telegram_tests": 6436,
+      "whatsapp_tests": 6441,
+      "isp_count": 12,
+      "top_blocking_isps": [
+        {
+          "asn": "AS17479",
+          "name": "AS17479",
+          "block_rate": 0.087
+        },
+        {
+          "asn": "AS23969",
+          "name": "AS23969",
+          "block_rate": 0.071
+        },
+        {
+          "asn": "AS45458",
+          "name": "AS45458",
+          "block_rate": 0.036
+        },
+        {
+          "asn": "AS131445",
+          "name": "AS131445",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS212238",
+          "name": "AS212238",
+          "block_rate": 0.029
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 52
+    },
+    {
+      "country_code": "CO",
+      "country_name": "Colombia",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.035,
+      "total_measurements": 585046,
+      "blocked_measurements": 20497,
+      "web_connectivity_tests": 568458,
+      "telegram_tests": 8297,
+      "whatsapp_tests": 8291,
+      "isp_count": 18,
+      "top_blocking_isps": [
+        {
+          "asn": "AS27837",
+          "name": "AS27837",
+          "block_rate": 0.53
+        },
+        {
+          "asn": "AS19429",
+          "name": "AS19429",
+          "block_rate": 0.023
+        },
+        {
+          "asn": "AS18678",
+          "name": "AS18678",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS272958",
+          "name": "AS272958",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS273187",
+          "name": "AS273187",
+          "block_rate": 0.02
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 53
+    },
+    {
+      "country_code": "RS",
+      "country_name": "RS",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0402,
+      "total_measurements": 291143,
+      "blocked_measurements": 11704,
+      "web_connectivity_tests": 285414,
+      "telegram_tests": 2867,
+      "whatsapp_tests": 2862,
+      "isp_count": 5,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9125",
+          "name": "AS9125",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS31042",
+          "name": "AS31042",
+          "block_rate": 0.013
+        },
+        {
+          "asn": "AS8400",
+          "name": "AS8400",
+          "block_rate": 0.012
+        },
+        {
+          "asn": "AS15958",
+          "name": "AS15958",
+          "block_rate": 0.011
+        },
+        {
+          "asn": "AS44143",
+          "name": "AS44143",
+          "block_rate": 0.007
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 54
+    },
+    {
+      "country_code": "HK",
+      "country_name": "HK",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0365,
+      "total_measurements": 267622,
+      "blocked_measurements": 9771,
+      "web_connectivity_tests": 262189,
+      "telegram_tests": 2717,
+      "whatsapp_tests": 2716,
+      "isp_count": 17,
+      "top_blocking_isps": [
+        {
+          "asn": "AS38277",
+          "name": "AS38277",
+          "block_rate": 0.4
+        },
+        {
+          "asn": "AS137259",
+          "name": "AS137259",
+          "block_rate": 0.38
+        },
+        {
+          "asn": "AS135405",
+          "name": "AS135405",
+          "block_rate": 0.238
+        },
+        {
+          "asn": "AS9269",
+          "name": "AS9269",
+          "block_rate": 0.053
+        },
+        {
+          "asn": "AS9304",
+          "name": "AS9304",
+          "block_rate": 0.044
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 55
+    },
+    {
+      "country_code": "PE",
+      "country_name": "Peru",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0395,
+      "total_measurements": 239664,
+      "blocked_measurements": 9468,
+      "web_connectivity_tests": 234658,
+      "telegram_tests": 2542,
+      "whatsapp_tests": 2464,
+      "isp_count": 7,
+      "top_blocking_isps": [
+        {
+          "asn": "AS272836",
+          "name": "AS272836",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS262210",
+          "name": "AS262210",
+          "block_rate": 0.028
+        },
+        {
+          "asn": "AS265691",
+          "name": "AS265691",
+          "block_rate": 0.022
+        },
+        {
+          "asn": "AS270068",
+          "name": "AS270068",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS12252",
+          "name": "AS12252",
+          "block_rate": 0.018
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 56
+    },
+    {
+      "country_code": "AF",
+      "country_name": "Afghanistan",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0354,
+      "total_measurements": 230201,
+      "blocked_measurements": 8155,
+      "web_connectivity_tests": 230081,
+      "telegram_tests": 59,
+      "whatsapp_tests": 61,
+      "isp_count": 7,
+      "top_blocking_isps": [
+        {
+          "asn": "AS45178",
+          "name": "AS45178",
+          "block_rate": 0.083
+        },
+        {
+          "asn": "AS135376",
+          "name": "AS135376",
+          "block_rate": 0.078
+        },
+        {
+          "asn": "AS38742",
+          "name": "AS38742",
+          "block_rate": 0.069
+        },
+        {
+          "asn": "AS153975",
+          "name": "AS153975",
+          "block_rate": 0.044
+        },
+        {
+          "asn": "AS135298",
+          "name": "AS135298",
+          "block_rate": 0.031
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 57
+    },
+    {
+      "country_code": "UG",
+      "country_name": "UG",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0429,
+      "total_measurements": 93466,
+      "blocked_measurements": 4012,
+      "web_connectivity_tests": 91990,
+      "telegram_tests": 742,
+      "whatsapp_tests": 734,
+      "isp_count": 6,
+      "top_blocking_isps": [
+        {
+          "asn": "AS37113",
+          "name": "AS37113",
+          "block_rate": 0.2
+        },
+        {
+          "asn": "AS20294",
+          "name": "AS20294",
+          "block_rate": 0.047
+        },
+        {
+          "asn": "AS36924",
+          "name": "AS36924",
+          "block_rate": 0.024
+        },
+        {
+          "asn": "AS37063",
+          "name": "AS37063",
+          "block_rate": 0.022
+        },
+        {
+          "asn": "AS37075",
+          "name": "AS37075",
+          "block_rate": 0.02
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 58
+    },
+    {
+      "country_code": "ZW",
+      "country_name": "ZW",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0364,
+      "total_measurements": 63649,
+      "blocked_measurements": 2316,
+      "web_connectivity_tests": 62476,
+      "telegram_tests": 587,
+      "whatsapp_tests": 586,
+      "isp_count": 3,
+      "top_blocking_isps": [
+        {
+          "asn": "AS37332",
+          "name": "AS37332",
+          "block_rate": 0.017
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.015
+        },
+        {
+          "asn": "AS328088",
+          "name": "AS328088",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 59
+    },
+    {
+      "country_code": "TJ",
+      "country_name": "TJ",
+      "censorship_score": 4,
+      "threat_level": "free",
+      "block_rate": 0.0417,
+      "total_measurements": 24,
+      "blocked_measurements": 1,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 60
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.032,
+      "total_measurements": 1046338,
+      "blocked_measurements": 33475,
+      "web_connectivity_tests": 812310,
+      "telegram_tests": 115165,
+      "whatsapp_tests": 118863,
+      "isp_count": 37,
+      "top_blocking_isps": [
+        {
+          "asn": "AS202448",
+          "name": "AS202448",
+          "block_rate": 0.205
+        },
+        {
+          "asn": "AS24940",
+          "name": "AS24940",
+          "block_rate": 0.154
+        },
+        {
+          "asn": "AS553",
+          "name": "AS553",
+          "block_rate": 0.133
+        },
+        {
+          "asn": "AS215607",
+          "name": "AS215607",
+          "block_rate": 0.128
+        },
+        {
+          "asn": "AS12638",
+          "name": "AS12638",
+          "block_rate": 0.12
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 61
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0298,
+      "total_measurements": 986104,
+      "blocked_measurements": 29414,
+      "web_connectivity_tests": 834347,
+      "telegram_tests": 75265,
+      "whatsapp_tests": 76492,
+      "isp_count": 93,
+      "top_blocking_isps": [
+        {
+          "asn": "AS269501",
+          "name": "AS269501",
+          "block_rate": 0.057
+        },
+        {
+          "asn": "AS262469",
+          "name": "AS262469",
+          "block_rate": 0.051
+        },
+        {
+          "asn": "AS263152",
+          "name": "AS263152",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS263860",
+          "name": "AS263860",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.038
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 62
+    },
+    {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0273,
+      "total_measurements": 918018,
+      "blocked_measurements": 25097,
+      "web_connectivity_tests": 793636,
+      "telegram_tests": 62174,
+      "whatsapp_tests": 62208,
+      "isp_count": 36,
+      "top_blocking_isps": [
+        {
+          "asn": "AS39326",
+          "name": "AS39326",
+          "block_rate": 0.159
+        },
+        {
+          "asn": "AS13037",
+          "name": "AS13037",
+          "block_rate": 0.05
+        },
+        {
+          "asn": "AS16276",
+          "name": "AS16276",
+          "block_rate": 0.05
+        },
+        {
+          "asn": "AS59895",
+          "name": "AS59895",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS213671",
+          "name": "AS213671",
+          "block_rate": 0.023
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 63
+    },
+    {
+      "country_code": "CA",
+      "country_name": "Canada",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0347,
+      "total_measurements": 878067,
+      "blocked_measurements": 30506,
+      "web_connectivity_tests": 775713,
+      "telegram_tests": 51198,
+      "whatsapp_tests": 51156,
+      "isp_count": 28,
+      "top_blocking_isps": [
+        {
+          "asn": "AS60068",
+          "name": "AS60068",
+          "block_rate": 0.111
+        },
+        {
+          "asn": "AS3848",
+          "name": "AS3848",
+          "block_rate": 0.1
+        },
+        {
+          "asn": "AS13335",
+          "name": "AS13335",
+          "block_rate": 0.046
+        },
+        {
+          "asn": "AS803",
+          "name": "AS803",
+          "block_rate": 0.045
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.03
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 64
+    },
+    {
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0311,
+      "total_measurements": 867131,
+      "blocked_measurements": 26942,
+      "web_connectivity_tests": 769652,
+      "telegram_tests": 49126,
+      "whatsapp_tests": 48353,
+      "isp_count": 43,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9123",
+          "name": "AS9123",
+          "block_rate": 0.7
+        },
+        {
+          "asn": "AS49981",
+          "name": "AS49981",
+          "block_rate": 0.43
+        },
+        {
+          "asn": "AS14956",
+          "name": "AS14956",
+          "block_rate": 0.39
+        },
+        {
+          "asn": "AS58061",
+          "name": "AS58061",
+          "block_rate": 0.082
+        },
+        {
+          "asn": "AS21100",
+          "name": "AS21100",
+          "block_rate": 0.077
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 65
+    },
+    {
+      "country_code": "PL",
+      "country_name": "Poland",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0271,
+      "total_measurements": 727022,
+      "blocked_measurements": 19706,
+      "web_connectivity_tests": 706260,
+      "telegram_tests": 10148,
+      "whatsapp_tests": 10614,
+      "isp_count": 20,
+      "top_blocking_isps": [
+        {
+          "asn": "AS12876",
+          "name": "AS12876",
+          "block_rate": 0.173
+        },
+        {
+          "asn": "AS215540",
+          "name": "AS215540",
+          "block_rate": 0.08
+        },
+        {
+          "asn": "AS49791",
+          "name": "AS49791",
+          "block_rate": 0.073
+        },
+        {
+          "asn": "AS56983",
+          "name": "AS56983",
+          "block_rate": 0.07
+        },
+        {
+          "asn": "AS39603",
+          "name": "AS39603",
+          "block_rate": 0.05
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 66
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japan",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0278,
+      "total_measurements": 713360,
+      "blocked_measurements": 19799,
+      "web_connectivity_tests": 687893,
+      "telegram_tests": 12737,
+      "whatsapp_tests": 12730,
+      "isp_count": 25,
+      "top_blocking_isps": [
+        {
+          "asn": "AS2914",
+          "name": "AS2914",
+          "block_rate": 0.211
+        },
+        {
+          "asn": "AS36599",
+          "name": "AS36599",
+          "block_rate": 0.089
+        },
+        {
+          "asn": "AS206675",
+          "name": "AS206675",
+          "block_rate": 0.04
+        },
+        {
+          "asn": "AS2519",
+          "name": "AS2519",
+          "block_rate": 0.035
+        },
+        {
+          "asn": "AS138968",
+          "name": "AS138968",
+          "block_rate": 0.028
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 67
+    },
+    {
+      "country_code": "SE",
+      "country_name": "Sweden",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.028,
+      "total_measurements": 641285,
+      "blocked_measurements": 17942,
+      "web_connectivity_tests": 621169,
+      "telegram_tests": 10060,
+      "whatsapp_tests": 10056,
+      "isp_count": 20,
+      "top_blocking_isps": [
+        {
+          "asn": "AS210644",
+          "name": "AS210644",
+          "block_rate": 0.06
+        },
+        {
+          "asn": "AS30058",
+          "name": "AS30058",
+          "block_rate": 0.057
+        },
+        {
+          "asn": "AS12552",
+          "name": "AS12552",
+          "block_rate": 0.048
+        },
+        {
+          "asn": "AS29518",
+          "name": "AS29518",
+          "block_rate": 0.048
+        },
+        {
+          "asn": "AS41745",
+          "name": "AS41745",
+          "block_rate": 0.043
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 68
+    },
+    {
+      "country_code": "CM",
+      "country_name": "CM",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.034,
+      "total_measurements": 544019,
+      "blocked_measurements": 18505,
+      "web_connectivity_tests": 481848,
+      "telegram_tests": 31250,
+      "whatsapp_tests": 30921,
+      "isp_count": 6,
+      "top_blocking_isps": [
+        {
+          "asn": "AS30992",
+          "name": "AS30992",
+          "block_rate": 0.037
+        },
+        {
+          "asn": "AS36912",
+          "name": "AS36912",
+          "block_rate": 0.037
+        },
+        {
+          "asn": "AS15964",
+          "name": "AS15964",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS327820",
+          "name": "AS327820",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.015
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 69
+    },
+    {
+      "country_code": "TW",
+      "country_name": "TW",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0276,
+      "total_measurements": 500908,
+      "blocked_measurements": 13812,
+      "web_connectivity_tests": 479854,
+      "telegram_tests": 10530,
+      "whatsapp_tests": 10524,
+      "isp_count": 13,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9416",
+          "name": "AS9416",
+          "block_rate": 0.086
+        },
+        {
+          "asn": "AS3462",
+          "name": "AS3462",
+          "block_rate": 0.043
+        },
+        {
+          "asn": "AS38845",
+          "name": "AS38845",
+          "block_rate": 0.041
+        },
+        {
+          "asn": "AS18419",
+          "name": "AS18419",
+          "block_rate": 0.028
+        },
+        {
+          "asn": "AS131596",
+          "name": "AS131596",
+          "block_rate": 0.025
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 70
+    },
+    {
+      "country_code": "PH",
+      "country_name": "PH",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0266,
+      "total_measurements": 479937,
+      "blocked_measurements": 12776,
+      "web_connectivity_tests": 461738,
+      "telegram_tests": 9093,
+      "whatsapp_tests": 9106,
+      "isp_count": 14,
+      "top_blocking_isps": [
+        {
+          "asn": "AS139831",
+          "name": "AS139831",
+          "block_rate": 0.062
+        },
+        {
+          "asn": "AS56099",
+          "name": "AS56099",
+          "block_rate": 0.053
+        },
+        {
+          "asn": "AS17639",
+          "name": "AS17639",
+          "block_rate": 0.037
+        },
+        {
+          "asn": "AS9299",
+          "name": "AS9299",
+          "block_rate": 0.024
+        },
+        {
+          "asn": "AS132021",
+          "name": "AS132021",
+          "block_rate": 0.02
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 71
+    },
+    {
+      "country_code": "BD",
+      "country_name": "Bangladesh",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0286,
+      "total_measurements": 475945,
+      "blocked_measurements": 13632,
+      "web_connectivity_tests": 466519,
+      "telegram_tests": 4727,
+      "whatsapp_tests": 4699,
+      "isp_count": 28,
+      "top_blocking_isps": [
+        {
+          "asn": "AS150335",
+          "name": "AS150335",
+          "block_rate": 0.75
+        },
+        {
+          "asn": "AS131247",
+          "name": "AS131247",
+          "block_rate": 0.118
+        },
+        {
+          "asn": "AS58717",
+          "name": "AS58717",
+          "block_rate": 0.053
+        },
+        {
+          "asn": "AS142122",
+          "name": "AS142122",
+          "block_rate": 0.044
+        },
+        {
+          "asn": "AS58656",
+          "name": "AS58656",
+          "block_rate": 0.041
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 72
+    },
+    {
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.028,
+      "total_measurements": 469947,
+      "blocked_measurements": 13158,
+      "web_connectivity_tests": 463718,
+      "telegram_tests": 3121,
+      "whatsapp_tests": 3108,
+      "isp_count": 16,
+      "top_blocking_isps": [
+        {
+          "asn": "AS4817",
+          "name": "AS4817",
+          "block_rate": 0.724
+        },
+        {
+          "asn": "AS4657",
+          "name": "AS4657",
+          "block_rate": 0.13
+        },
+        {
+          "asn": "AS63473",
+          "name": "AS63473",
+          "block_rate": 0.032
+        },
+        {
+          "asn": "AS16509",
+          "name": "AS16509",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS14061",
+          "name": "AS14061",
+          "block_rate": 0.022
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 73
+    },
+    {
+      "country_code": "AR",
+      "country_name": "Argentina",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0279,
+      "total_measurements": 403786,
+      "blocked_measurements": 11251,
+      "web_connectivity_tests": 389659,
+      "telegram_tests": 7051,
+      "whatsapp_tests": 7076,
+      "isp_count": 15,
+      "top_blocking_isps": [
+        {
+          "asn": "AS16814",
+          "name": "AS16814",
+          "block_rate": 0.029
+        },
+        {
+          "asn": "AS19037",
+          "name": "AS19037",
+          "block_rate": 0.027
+        },
+        {
+          "asn": "AS17069",
+          "name": "AS17069",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS267882",
+          "name": "AS267882",
+          "block_rate": 0.023
+        },
+        {
+          "asn": "AS266769",
+          "name": "AS266769",
+          "block_rate": 0.016
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 74
+    },
+    {
+      "country_code": "ZA",
+      "country_name": "South Africa",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0263,
+      "total_measurements": 356453,
+      "blocked_measurements": 9381,
+      "web_connectivity_tests": 347840,
+      "telegram_tests": 4291,
+      "whatsapp_tests": 4322,
+      "isp_count": 15,
+      "top_blocking_isps": [
+        {
+          "asn": "AS2018",
+          "name": "AS2018",
+          "block_rate": 0.041
+        },
+        {
+          "asn": "AS37105",
+          "name": "AS37105",
+          "block_rate": 0.026
+        },
+        {
+          "asn": "AS37611",
+          "name": "AS37611",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS12091",
+          "name": "AS12091",
+          "block_rate": 0.019
+        },
+        {
+          "asn": "AS5713",
+          "name": "AS5713",
+          "block_rate": 0.015
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 75
+    },
+    {
+      "country_code": "MA",
+      "country_name": "MA",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.028,
+      "total_measurements": 330321,
+      "blocked_measurements": 9264,
+      "web_connectivity_tests": 322566,
+      "telegram_tests": 3879,
+      "whatsapp_tests": 3876,
+      "isp_count": 4,
+      "top_blocking_isps": [
+        {
+          "asn": "AS36884",
+          "name": "AS36884",
+          "block_rate": 0.028
+        },
+        {
+          "asn": "AS36925",
+          "name": "AS36925",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS36903",
+          "name": "AS36903",
+          "block_rate": 0.018
+        },
+        {
+          "asn": "AS6713",
+          "name": "AS6713",
+          "block_rate": 0.01
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 76
+    },
+    {
+      "country_code": "IL",
+      "country_name": "Israel",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0345,
+      "total_measurements": 279487,
+      "blocked_measurements": 9631,
+      "web_connectivity_tests": 273068,
+      "telegram_tests": 3216,
+      "whatsapp_tests": 3203,
+      "isp_count": 10,
+      "top_blocking_isps": [
+        {
+          "asn": "AS42925",
+          "name": "AS42925",
+          "block_rate": 0.081
+        },
+        {
+          "asn": "AS12400",
+          "name": "AS12400",
+          "block_rate": 0.017
+        },
+        {
+          "asn": "AS62005",
+          "name": "AS62005",
+          "block_rate": 0.015
+        },
+        {
+          "asn": "AS1680",
+          "name": "AS1680",
+          "block_rate": 0.012
+        },
+        {
+          "asn": "AS12849",
+          "name": "AS12849",
+          "block_rate": 0.009
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 77
+    },
+    {
+      "country_code": "SN",
+      "country_name": "SN",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0253,
+      "total_measurements": 264163,
+      "blocked_measurements": 6692,
+      "web_connectivity_tests": 256884,
+      "telegram_tests": 3649,
+      "whatsapp_tests": 3630,
+      "isp_count": 1,
+      "top_blocking_isps": [
+        {
+          "asn": "AS8346",
+          "name": "AS8346",
+          "block_rate": 0.023
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 78
+    },
+    {
+      "country_code": "NG",
+      "country_name": "Nigeria",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0265,
+      "total_measurements": 203041,
+      "blocked_measurements": 5371,
+      "web_connectivity_tests": 200493,
+      "telegram_tests": 1272,
+      "whatsapp_tests": 1276,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS37282",
+          "name": "AS37282",
+          "block_rate": 0.075
+        },
+        {
+          "asn": "AS29465",
+          "name": "AS29465",
+          "block_rate": 0.034
+        },
+        {
+          "asn": "AS36873",
+          "name": "AS36873",
+          "block_rate": 0.031
+        },
+        {
+          "asn": "AS37004",
+          "name": "AS37004",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.016
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 79
+    },
+    {
+      "country_code": "CD",
+      "country_name": "CD",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0263,
+      "total_measurements": 192682,
+      "blocked_measurements": 5076,
+      "web_connectivity_tests": 192483,
+      "telegram_tests": 100,
+      "whatsapp_tests": 99,
+      "isp_count": 6,
+      "top_blocking_isps": [
+        {
+          "asn": "AS14593",
+          "name": "AS14593",
+          "block_rate": 0.082
+        },
+        {
+          "asn": "AS37447",
+          "name": "AS37447",
+          "block_rate": 0.051
+        },
+        {
+          "asn": "AS37453",
+          "name": "AS37453",
+          "block_rate": 0.049
+        },
+        {
+          "asn": "AS329542",
+          "name": "AS329542",
+          "block_rate": 0.039
+        },
+        {
+          "asn": "AS37020",
+          "name": "AS37020",
+          "block_rate": 0.02
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 80
+    },
+    {
+      "country_code": "TN",
+      "country_name": "TN",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0309,
+      "total_measurements": 66010,
+      "blocked_measurements": 2043,
+      "web_connectivity_tests": 64665,
+      "telegram_tests": 672,
+      "whatsapp_tests": 673,
+      "isp_count": 3,
+      "top_blocking_isps": [
+        {
+          "asn": "AS327934",
+          "name": "AS327934",
+          "block_rate": 0.03
+        },
+        {
+          "asn": "AS2609",
+          "name": "AS2609",
+          "block_rate": 0.011
+        },
+        {
+          "asn": "AS37693",
+          "name": "AS37693",
+          "block_rate": 0.003
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 81
+    },
+    {
+      "country_code": "HN",
+      "country_name": "HN",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0349,
+      "total_measurements": 65229,
+      "blocked_measurements": 2277,
+      "web_connectivity_tests": 63835,
+      "telegram_tests": 694,
+      "whatsapp_tests": 700,
+      "isp_count": 3,
+      "top_blocking_isps": [
+        {
+          "asn": "AS23383",
+          "name": "AS23383",
+          "block_rate": 0.08
+        },
+        {
+          "asn": "AS27884",
+          "name": "AS27884",
+          "block_rate": 0.011
+        },
+        {
+          "asn": "AS52262",
+          "name": "AS52262",
+          "block_rate": 0.011
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 82
+    },
+    {
+      "country_code": "LB",
+      "country_name": "LB",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0254,
+      "total_measurements": 38556,
+      "blocked_measurements": 980,
+      "web_connectivity_tests": 37798,
+      "telegram_tests": 379,
+      "whatsapp_tests": 379,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS56902",
+          "name": "AS56902",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS39010",
+          "name": "AS39010",
+          "block_rate": 0.017
+        },
+        {
+          "asn": "AS42003",
+          "name": "AS42003",
+          "block_rate": 0.012
+        },
+        {
+          "asn": "AS34447",
+          "name": "AS34447",
+          "block_rate": 0.01
+        },
+        {
+          "asn": "AS35197",
+          "name": "AS35197",
+          "block_rate": 0.01
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 83
+    },
+    {
+      "country_code": "BA",
+      "country_name": "BA",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0261,
+      "total_measurements": 17458,
+      "blocked_measurements": 456,
+      "web_connectivity_tests": 17092,
+      "telegram_tests": 182,
+      "whatsapp_tests": 184,
+      "isp_count": 4,
+      "top_blocking_isps": [
+        {
+          "asn": "AS25198",
+          "name": "AS25198",
+          "block_rate": 0.045
+        },
+        {
+          "asn": "AS42560",
+          "name": "AS42560",
+          "block_rate": 0.034
+        },
+        {
+          "asn": "AS25144",
+          "name": "AS25144",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS9146",
+          "name": "AS9146",
+          "block_rate": 0.012
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 84
+    },
+    {
+      "country_code": "RW",
+      "country_name": "RW",
+      "censorship_score": 3,
+      "threat_level": "free",
+      "block_rate": 0.0342,
+      "total_measurements": 11141,
+      "blocked_measurements": 381,
+      "web_connectivity_tests": 10857,
+      "telegram_tests": 142,
+      "whatsapp_tests": 142,
+      "isp_count": 1,
+      "top_blocking_isps": [
+        {
+          "asn": "AS36890",
+          "name": "AS36890",
+          "block_rate": 0.025
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 85
+    },
+    {
+      "country_code": "US",
+      "country_name": "United States",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0207,
+      "total_measurements": 1259865,
+      "blocked_measurements": 26139,
+      "web_connectivity_tests": 772781,
+      "telegram_tests": 244253,
+      "whatsapp_tests": 242831,
+      "isp_count": 82,
+      "top_blocking_isps": [
+        {
+          "asn": "AS395301",
+          "name": "AS395301",
+          "block_rate": 0.237
+        },
+        {
+          "asn": "AS394161",
+          "name": "AS394161",
+          "block_rate": 0.1
+        },
+        {
+          "asn": "AS36692",
+          "name": "AS36692",
+          "block_rate": 0.096
+        },
+        {
+          "asn": "AS7029",
+          "name": "AS7029",
+          "block_rate": 0.09
+        },
+        {
+          "asn": "AS19751",
+          "name": "AS19751",
+          "block_rate": 0.079
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 86
+    },
+    {
+      "country_code": "AU",
+      "country_name": "Australia",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0193,
+      "total_measurements": 833143,
+      "blocked_measurements": 16071,
+      "web_connectivity_tests": 792827,
+      "telegram_tests": 20132,
+      "whatsapp_tests": 20184,
+      "isp_count": 16,
+      "top_blocking_isps": [
+        {
+          "asn": "AS4826",
+          "name": "AS4826",
+          "block_rate": 0.091
+        },
+        {
+          "asn": "AS137409",
+          "name": "AS137409",
+          "block_rate": 0.077
+        },
+        {
+          "asn": "AS10143",
+          "name": "AS10143",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS136557",
+          "name": "AS136557",
+          "block_rate": 0.021
+        },
+        {
+          "asn": "AS9009",
+          "name": "AS9009",
+          "block_rate": 0.02
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 87
+    },
+    {
+      "country_code": "MX",
+      "country_name": "Mexico",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0207,
+      "total_measurements": 832135,
+      "blocked_measurements": 17197,
+      "web_connectivity_tests": 805091,
+      "telegram_tests": 13508,
+      "whatsapp_tests": 13536,
+      "isp_count": 25,
+      "top_blocking_isps": [
+        {
+          "asn": "AS212238",
+          "name": "AS212238",
+          "block_rate": 0.524
+        },
+        {
+          "asn": "AS208172",
+          "name": "AS208172",
+          "block_rate": 0.174
+        },
+        {
+          "asn": "AS212496",
+          "name": "AS212496",
+          "block_rate": 0.126
+        },
+        {
+          "asn": "AS22884",
+          "name": "AS22884",
+          "block_rate": 0.108
+        },
+        {
+          "asn": "AS18734",
+          "name": "AS18734",
+          "block_rate": 0.09
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 88
+    },
+    {
+      "country_code": "GE",
+      "country_name": "GE",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0213,
+      "total_measurements": 407150,
+      "blocked_measurements": 8689,
+      "web_connectivity_tests": 395431,
+      "telegram_tests": 5858,
+      "whatsapp_tests": 5861,
+      "isp_count": 6,
+      "top_blocking_isps": [
+        {
+          "asn": "AS209183",
+          "name": "AS209183",
+          "block_rate": 0.16
+        },
+        {
+          "asn": "AS13335",
+          "name": "AS13335",
+          "block_rate": 0.09
+        },
+        {
+          "asn": "AS35076",
+          "name": "AS35076",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS35805",
+          "name": "AS35805",
+          "block_rate": 0.02
+        },
+        {
+          "asn": "AS16010",
+          "name": "AS16010",
+          "block_rate": 0.019
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 89
+    },
+    {
+      "country_code": "HU",
+      "country_name": "HU",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0217,
+      "total_measurements": 374093,
+      "blocked_measurements": 8131,
+      "web_connectivity_tests": 366090,
+      "telegram_tests": 3998,
+      "whatsapp_tests": 4005,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS213155",
+          "name": "AS213155",
+          "block_rate": 0.25
+        },
+        {
+          "asn": "AS212238",
+          "name": "AS212238",
+          "block_rate": 0.06
+        },
+        {
+          "asn": "AS5483",
+          "name": "AS5483",
+          "block_rate": 0.019
+        },
+        {
+          "asn": "AS8990",
+          "name": "AS8990",
+          "block_rate": 0.016
+        },
+        {
+          "asn": "AS20845",
+          "name": "AS20845",
+          "block_rate": 0.013
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 90
+    },
+    {
+      "country_code": "AM",
+      "country_name": "AM",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0236,
+      "total_measurements": 318411,
+      "blocked_measurements": 7512,
+      "web_connectivity_tests": 308236,
+      "telegram_tests": 5087,
+      "whatsapp_tests": 5088,
+      "isp_count": 8,
+      "top_blocking_isps": [
+        {
+          "asn": "AS201589",
+          "name": "AS201589",
+          "block_rate": 0.08
+        },
+        {
+          "asn": "AS21104",
+          "name": "AS21104",
+          "block_rate": 0.025
+        },
+        {
+          "asn": "AS198265",
+          "name": "AS198265",
+          "block_rate": 0.018
+        },
+        {
+          "asn": "AS44395",
+          "name": "AS44395",
+          "block_rate": 0.014
+        },
+        {
+          "asn": "AS12297",
+          "name": "AS12297",
+          "block_rate": 0.012
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 91
+    },
+    {
+      "country_code": "CL",
+      "country_name": "Chile",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0192,
+      "total_measurements": 235057,
+      "blocked_measurements": 4502,
+      "web_connectivity_tests": 229426,
+      "telegram_tests": 2799,
+      "whatsapp_tests": 2832,
+      "isp_count": 7,
+      "top_blocking_isps": [
+        {
+          "asn": "AS13381",
+          "name": "AS13381",
+          "block_rate": 0.024
+        },
+        {
+          "asn": "AS7418",
+          "name": "AS7418",
+          "block_rate": 0.017
+        },
+        {
+          "asn": "AS14117",
+          "name": "AS14117",
+          "block_rate": 0.015
+        },
+        {
+          "asn": "AS27901",
+          "name": "AS27901",
+          "block_rate": 0.011
+        },
+        {
+          "asn": "AS52341",
+          "name": "AS52341",
+          "block_rate": 0.008
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 92
+    },
+    {
+      "country_code": "NI",
+      "country_name": "NI",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0204,
+      "total_measurements": 53895,
+      "blocked_measurements": 1097,
+      "web_connectivity_tests": 52804,
+      "telegram_tests": 547,
+      "whatsapp_tests": 544,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 93
+    },
+    {
+      "country_code": "LK",
+      "country_name": "LK",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0213,
+      "total_measurements": 43753,
+      "blocked_measurements": 930,
+      "web_connectivity_tests": 43078,
+      "telegram_tests": 325,
+      "whatsapp_tests": 350,
+      "isp_count": 4,
+      "top_blocking_isps": [
+        {
+          "asn": "AS9329",
+          "name": "AS9329",
+          "block_rate": 0.013
+        },
+        {
+          "asn": "AS132447",
+          "name": "AS132447",
+          "block_rate": 0.0
+        },
+        {
+          "asn": "AS17470",
+          "name": "AS17470",
+          "block_rate": 0.0
+        },
+        {
+          "asn": "AS18001",
+          "name": "AS18001",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 94
+    },
+    {
+      "country_code": "BO",
+      "country_name": "BO",
+      "censorship_score": 2,
+      "threat_level": "free",
+      "block_rate": 0.0174,
+      "total_measurements": 20483,
+      "blocked_measurements": 357,
+      "web_connectivity_tests": 20078,
+      "telegram_tests": 203,
+      "whatsapp_tests": 202,
+      "isp_count": 2,
+      "top_blocking_isps": [
+        {
+          "asn": "AS27882",
+          "name": "AS27882",
+          "block_rate": 0.007
+        },
+        {
+          "asn": "AS6568",
+          "name": "AS6568",
+          "block_rate": 0.0
+        }
+      ],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 95
+    },
+    {
+      "country_code": "TG",
+      "country_name": "TG",
+      "censorship_score": 1,
+      "threat_level": "free",
+      "block_rate": 0.0065,
+      "total_measurements": 154,
+      "blocked_measurements": 1,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 96
+    },
+    {
+      "country_code": "TT",
+      "country_name": "TT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 738,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 97
+    },
+    {
+      "country_code": "SI",
+      "country_name": "SI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 184,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 98
+    },
+    {
+      "country_code": "GH",
+      "country_name": "GH",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 145,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 99
+    },
+    {
+      "country_code": "CG",
+      "country_name": "CG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 128,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 100
+    },
+    {
+      "country_code": "PY",
+      "country_name": "PY",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 90,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 101
+    },
+    {
+      "country_code": "AO",
+      "country_name": "AO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 88,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 102
+    },
+    {
+      "country_code": "UY",
+      "country_name": "UY",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 84,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 103
+    },
+    {
+      "country_code": "ME",
+      "country_name": "ME",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 75,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 104
+    },
+    {
+      "country_code": "BG",
+      "country_name": "BG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 73,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 105
+    },
+    {
+      "country_code": "DO",
+      "country_name": "DO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 73,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 106
+    },
+    {
+      "country_code": "PA",
+      "country_name": "PA",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 68,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 107
+    },
+    {
+      "country_code": "RO",
+      "country_name": "RO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 54,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 108
+    },
+    {
+      "country_code": "IE",
+      "country_name": "IE",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 53,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 109
+    },
+    {
+      "country_code": "CI",
+      "country_name": "CI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 42,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 110
+    },
+    {
+      "country_code": "MW",
+      "country_name": "MW",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 41,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 111
+    },
+    {
+      "country_code": "TD",
+      "country_name": "TD",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 40,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 112
+    },
+    {
+      "country_code": "MK",
+      "country_name": "MK",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 38,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 113
+    },
+    {
+      "country_code": "GT",
+      "country_name": "GT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 35,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 114
+    },
+    {
+      "country_code": "NE",
+      "country_name": "NE",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 35,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 115
+    },
+    {
+      "country_code": "BW",
+      "country_name": "BW",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 33,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 116
+    },
+    {
+      "country_code": "PT",
+      "country_name": "PT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 29,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 117
+    },
+    {
+      "country_code": "GQ",
+      "country_name": "GQ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 27,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 118
+    },
+    {
+      "country_code": "SB",
+      "country_name": "SB",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 23,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 119
+    },
+    {
+      "country_code": "SL",
+      "country_name": "SL",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 23,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 120
+    },
+    {
+      "country_code": "BJ",
+      "country_name": "BJ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 22,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 121
+    },
+    {
+      "country_code": "LT",
+      "country_name": "LT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 21,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 122
+    },
+    {
+      "country_code": "PS",
+      "country_name": "PS",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 21,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 123
+    },
+    {
+      "country_code": "KI",
+      "country_name": "KI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 20,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 124
+    },
+    {
+      "country_code": "MD",
+      "country_name": "MD",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 20,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 125
+    },
+    {
+      "country_code": "BE",
+      "country_name": "BE",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 18,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 126
+    },
+    {
+      "country_code": "BZ",
+      "country_name": "BZ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 18,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 127
+    },
+    {
+      "country_code": "TO",
+      "country_name": "TO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 18,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 128
+    },
+    {
+      "country_code": "NR",
+      "country_name": "NR",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 16,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 129
+    },
+    {
+      "country_code": "VI",
+      "country_name": "VI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 16,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 130
+    },
+    {
+      "country_code": "NA",
+      "country_name": "NA",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 15,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 131
+    },
+    {
+      "country_code": "AT",
+      "country_name": "AT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 14,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 132
+    },
+    {
+      "country_code": "GR",
+      "country_name": "GR",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 14,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 133
+    },
+    {
+      "country_code": "EE",
+      "country_name": "EE",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 13,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 134
+    },
+    {
+      "country_code": "NZ",
+      "country_name": "NZ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 13,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 135
+    },
+    {
+      "country_code": "ST",
+      "country_name": "ST",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 13,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 136
+    },
+    {
+      "country_code": "CF",
+      "country_name": "CF",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 12,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 137
+    },
+    {
+      "country_code": "SC",
+      "country_name": "SC",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 11,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 138
+    },
+    {
+      "country_code": "CY",
+      "country_name": "CY",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 10,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 139
+    },
+    {
+      "country_code": "MT",
+      "country_name": "MT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 10,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 140
+    },
+    {
+      "country_code": "PG",
+      "country_name": "PG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 10,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 141
+    },
+    {
+      "country_code": "BI",
+      "country_name": "BI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 9,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 142
+    },
+    {
+      "country_code": "CR",
+      "country_name": "CR",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 9,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 143
+    },
+    {
+      "country_code": "ZM",
+      "country_name": "ZM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 9,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 144
+    },
+    {
+      "country_code": "LV",
+      "country_name": "LV",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 8,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 145
+    },
+    {
+      "country_code": "WF",
+      "country_name": "WF",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 8,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 146
+    },
+    {
+      "country_code": "AL",
+      "country_name": "AL",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 7,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 147
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "CZ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 7,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 148
+    },
+    {
+      "country_code": "GD",
+      "country_name": "GD",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 149
+    },
+    {
+      "country_code": "GW",
+      "country_name": "GW",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 150
+    },
+    {
+      "country_code": "HR",
+      "country_name": "HR",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 151
+    },
+    {
+      "country_code": "LR",
+      "country_name": "LR",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 152
+    },
+    {
+      "country_code": "LU",
+      "country_name": "LU",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 153
+    },
+    {
+      "country_code": "NC",
+      "country_name": "NC",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 154
+    },
+    {
+      "country_code": "TL",
+      "country_name": "TL",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 155
+    },
+    {
+      "country_code": "VU",
+      "country_name": "VU",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 6,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 156
+    },
+    {
+      "country_code": "MF",
+      "country_name": "MF",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 5,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 157
+    },
+    {
+      "country_code": "ML",
+      "country_name": "ML",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 5,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 158
+    },
+    {
+      "country_code": "SZ",
+      "country_name": "SZ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 5,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 159
+    },
+    {
+      "country_code": "BT",
+      "country_name": "BT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 160
+    },
+    {
+      "country_code": "GN",
+      "country_name": "GN",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 161
+    },
+    {
+      "country_code": "JM",
+      "country_name": "JM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 162
+    },
+    {
+      "country_code": "LI",
+      "country_name": "LI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 163
+    },
+    {
+      "country_code": "MC",
+      "country_name": "MC",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 164
+    },
+    {
+      "country_code": "MN",
+      "country_name": "MN",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 165
+    },
+    {
+      "country_code": "NO",
+      "country_name": "NO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 166
+    },
+    {
+      "country_code": "SK",
+      "country_name": "SK",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 4,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 167
+    },
+    {
+      "country_code": "GY",
+      "country_name": "GY",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 168
+    },
+    {
+      "country_code": "HT",
+      "country_name": "HT",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 169
+    },
+    {
+      "country_code": "IM",
+      "country_name": "IM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 170
+    },
+    {
+      "country_code": "SV",
+      "country_name": "SV",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 171
+    },
+    {
+      "country_code": "TC",
+      "country_name": "TC",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 172
+    },
+    {
+      "country_code": "VC",
+      "country_name": "VC",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 3,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 173
+    },
+    {
+      "country_code": "BB",
+      "country_name": "BB",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 174
+    },
+    {
+      "country_code": "DJ",
+      "country_name": "DJ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 175
+    },
+    {
+      "country_code": "DM",
+      "country_name": "DM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 176
+    },
+    {
+      "country_code": "FI",
+      "country_name": "FI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 177
+    },
+    {
+      "country_code": "FJ",
+      "country_name": "FJ",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 178
+    },
+    {
+      "country_code": "FM",
+      "country_name": "FM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 179
+    },
+    {
+      "country_code": "GI",
+      "country_name": "GI",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 180
+    },
+    {
+      "country_code": "LS",
+      "country_name": "LS",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 181
+    },
+    {
+      "country_code": "MG",
+      "country_name": "MG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 182
+    },
+    {
+      "country_code": "PW",
+      "country_name": "PW",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 183
+    },
+    {
+      "country_code": "TV",
+      "country_name": "TV",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 184
+    },
+    {
+      "country_code": "VG",
+      "country_name": "VG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 185
+    },
+    {
+      "country_code": "WS",
+      "country_name": "WS",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 2,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 186
+    },
+    {
+      "country_code": "AG",
+      "country_name": "AG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 187
+    },
+    {
+      "country_code": "BM",
+      "country_name": "BM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 188
+    },
+    {
+      "country_code": "BN",
+      "country_name": "BN",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 189
+    },
+    {
+      "country_code": "CK",
+      "country_name": "CK",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 190
+    },
+    {
+      "country_code": "FO",
+      "country_name": "FO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 191
+    },
+    {
+      "country_code": "GG",
+      "country_name": "GG",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 192
+    },
+    {
+      "country_code": "GM",
+      "country_name": "GM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 193
+    },
+    {
+      "country_code": "GU",
+      "country_name": "GU",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 194
+    },
+    {
+      "country_code": "IS",
+      "country_name": "IS",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 195
+    },
+    {
+      "country_code": "KM",
+      "country_name": "KM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 196
+    },
+    {
+      "country_code": "KN",
+      "country_name": "KN",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 197
+    },
+    {
+      "country_code": "MO",
+      "country_name": "MO",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 198
+    },
+    {
+      "country_code": "MV",
+      "country_name": "MV",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 199
+    },
+    {
+      "country_code": "SM",
+      "country_name": "SM",
+      "censorship_score": 0,
+      "threat_level": "free",
+      "block_rate": 0.0,
+      "total_measurements": 1,
+      "blocked_measurements": 0,
+      "web_connectivity_tests": 0,
+      "telegram_tests": 0,
+      "whatsapp_tests": 0,
+      "isp_count": 0,
+      "top_blocking_isps": [],
+      "data_source": "OONI",
+      "last_updated": "2026-08-08T03:42:51.331808",
+      "rank": 200
+    }
+  ]
+}

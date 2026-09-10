@@ -1,0 +1,23 @@
+[project]
+name = "activities"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AlieeLinux", email = "bazartroy531@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fsspec>=2026.7.0",
+    "huggingface-hub>=1.29.0",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+activities = "activities:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
