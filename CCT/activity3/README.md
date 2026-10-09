@@ -51,30 +51,15 @@ To gain a complete view of Alphabet’s operations, observations will focus on t
 * Highlight key findings, visual layout insights, and strategic business takeaways.
 * Proofread and submit the final assignment.
 
-
 ---
-
-## 4. Observation Log & Data Matrix Template
 
 | Observation Focus Area | Key Metrics / Elements Observed | Purpose / Strategic Insight |
-| --- | --- | --- |
-| **Search Engine (Google.com)** | • Number of sponsored top links<br>
+| :--- | :--- | :--- |
+| **Search Engine (Google.com)** | • Number of sponsored top links<br>• Speed of query delivery<br>• AI Overview / Featured Snippet placement | Analyzes how Search balances instant user answers with high-value ad revenue. |
+| **Video & Streaming (YouTube)** | • Non-skippable ad length<br>• Frequency of "Try Premium" pop-ups<br>• Algorithm recommendation accuracy | Examines user retention mechanics vs. direct ad monetization. |
+| **Cloud & Productivity (Workspace)** | • Free tier limits (15 GB)<br>• Friction points when reaching storage caps<br>• One-click Google One upgrade paths | Shows how free tools drive recurring subscription revenue. |
 
-<br>• Speed of query delivery<br>
-
-<br>• AI Overview / Featured Snippet placement | Analyzes how Search balances instant user answers with high-value ad revenue. |
-| **Video & Streaming (YouTube)** | • Non-skippable ad length<br>
-
-<br>• Frequency of "Try Premium" pop-ups<br>
-
-<br>• Algorithm recommendation accuracy | Examines user retention mechanics vs. direct ad monetization. |
-| **Cloud & Productivity (Workspace)** | • Free tier limits (15 GB)<br>
-
-<br>• Friction points when reaching storage caps<br>
-
-<br>• One-click Google One upgrade paths | Shows how free tools drive recurring subscription revenue. |
-
----
+--- 
 
 ## 5. Expected Outcomes & Takeaways
 
